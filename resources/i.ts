@@ -9,18 +9,6 @@ export const resources: Resource[] = [
         url: 'https://iconbuddy.app',
     },
     {
-        name: 'Icônes',
-        description: 'Icon Explorer with Instant searching, powered by Iconify',
-        categories: ['Icon'],
-        url: 'https://icones.netlify.app/',
-    },
-    {
-        name: 'Iconfinder',
-        description: 'Millions of graphics for your design projects. Created by independent designers.',
-        categories: ['Icon', 'Illustration'],
-        url: 'https://www.iconfinder.com',
-    },
-    {
         name: 'Iconic',
         description: 'Free, “do wtf you want with” pixel-perfect icons. New icons added every week',
         categories: ['Icon'],
@@ -45,6 +33,14 @@ export const resources: Resource[] = [
         ],
     },
     {
+        name: 'IconKing',
+        description:
+            'Free browser-based Lottie animation previewer, color editor, and .json ↔ .lottie format converter. 100% client-side — no upload, no account needed.',
+        categories: ['Animation', 'Design'],
+        url: 'https://iconking.net',
+        keywords: ['lottie', 'lottie animation', 'dotlottie', 'animation preview', 'lottie converter', 'lottie editor'],
+    },
+    {
         name: 'iconmonstr',
         description: 'Free simple icons for your next project.',
         categories: ['Icon'],
@@ -54,7 +50,7 @@ export const resources: Resource[] = [
         name: 'Icons8',
         description:
             'Download design elements for free: icons, photos, vector illustrations, and music for your videos.',
-        categories: ['Icon', 'Illustration', 'Image', 'Audio'],
+        categories: ['Icon', 'Illustration', 'Image'],
         url: 'https://icons8.com',
     },
     {
@@ -67,7 +63,7 @@ export const resources: Resource[] = [
     {
         name: 'Iconshock',
         description:
-            'Free icons and premium icon packs.  Flat icons, Material icons, Glyph icons, iOS icons, Font icons, and more design styles. Vector files, including PNG and SVG icons. Ready for apps, web or social media projects.',
+            'Free icons and premium icon packs. Flat icons, Material icons, Glyph icons, iOS icons, Font icons, and more design styles. Vector files, including PNG and SVG icons. Ready for apps, web or social media projects.',
         categories: ['Icon'],
         url: 'https://www.iconshock.com/',
         keywords: [
@@ -75,7 +71,7 @@ export const resources: Resource[] = [
             'web icon set',
             'web icon',
             'professional icons',
-            'software  web icons',
+            'software web icons',
             'web icons vista',
             'xp web icons',
             'windows vista icons',
@@ -93,13 +89,6 @@ export const resources: Resource[] = [
         ],
     },
     {
-        name: 'Iconshock',
-        description:
-            'The biggest icon pack with over 2 million professional icons in +400 icon sets with more than 30 design styles: material, flat, 3d, realistic, iOS, and more.',
-        categories: ['Icon'],
-        url: 'https://www.iconshock.com/',
-    },
-    {
         name: 'IconSweets',
         description:
             'IconSweets is a huge set containing over 1,000 custom designed icons. IconSweets 2 will quench your icon thirst for all your iPhone, iPad & Android apps or new web projects.',
@@ -107,11 +96,25 @@ export const resources: Resource[] = [
         url: 'https://www.designbombs.com/iconsweets2/',
     },
     {
+        name: 'Icônes',
+        description: 'Icon Explorer with Instant searching, powered by Iconify',
+        categories: ['Icon'],
+        url: 'https://icones.netlify.app/',
+    },
+    {
         name: 'Illustrations-figma',
         description:
             'More than 5000 vector illustrations you can use inside Figma. All the figma illustrations are in SVG & PNG formats and includes styles like flat, lined, abstract and more.',
         categories: ['Illustration'],
         url: 'https://www.artify.co/illustrations-figma',
+    },
+    {
+        name: 'Image to ASCII',
+        description:
+            'Convert images locally into ASCII art for READMEs and terminals. Copy text or Markdown; export TXT, PNG, SVG, HTML, or ANSI. Free, no signup.',
+        categories: ['Image', 'Terminal', 'Tooling'],
+        url: 'https://imagetoascii.art/',
+        keywords: ['ascii art', 'image to ascii', 'readme', 'ansi', 'markdown', 'local processing'],
     },
     {
         name: 'Img.Upscaler',
@@ -187,19 +190,6 @@ export const resources: Resource[] = [
         url: 'https://www.jetbrains.com/idea/',
     },
     {
-        name: 'IntersectionObserver Examples',
-        description: 'Practical, real world React examples of Intersection Observer',
-        categories: ['Learn', 'Programming'],
-        url: 'https://intersectionobserver.io',
-        keywords: [
-            'IntersectionObserver',
-            'IntersectionObserver API',
-            'IntersectionObserver examples',
-            'React',
-            'React IntersectionObserver',
-        ],
-    },
-    {
         name: 'Interview Hammer',
         description: 'Nail your job interview with the your interview AI copilot',
         categories: ['Interview', 'AI'],
@@ -207,11 +197,27 @@ export const resources: Resource[] = [
         keywords: ['interview helper', 'interview AI copilot', 'interview AI assistant', 'career', 'jobs'],
     },
     {
+        name: 'Interview Man',
+        description:
+            'AI-powered mock interviews with realistic questions, voice interaction, and actionable feedback to help candidates prepare.',
+        categories: ['Interview'],
+        url: 'https://interviewman.com',
+        keywords: ['interview', 'AI', 'career', 'mock interview', 'job search'],
+    },
+    {
         name: 'Interview Solver',
         description: 'Ace your live coding interviews with our AI Copilot',
         categories: ['Interview', 'AI'],
         url: 'https://interviewsolver.com',
         keywords: ['interview helper', 'interview solver', 'ai copilot', 'career'],
+    },
+    {
+        name: 'Interview VIP',
+        description:
+            'AI interview coach with realistic practice sessions, voice interaction, and actionable feedback for job candidates.',
+        categories: ['Interview'],
+        url: 'https://interviewvip.com',
+        keywords: ['interview', 'AI', 'career', 'interview coach', 'job search'],
     },
     {
         name: 'InterviewPal',
@@ -229,24 +235,28 @@ export const resources: Resource[] = [
         url: 'https://iosdevjobs.com/',
     },
     {
-        name: 'IRA Design',
-        description: 'Open-source illustrations that fits perfectly for any project you desire.',
-        categories: ['Illustration'],
-        url: 'https://iradesign.io/gallery/illustrations',
+        name: 'IPASIS',
+        description:
+            'Real-time bot detection and fraud prevention API. Combines IP reputation, VPN/proxy detection, and email validation in a single call. Free tier: 100 requests/day.',
+        categories: ['Security', 'API Building'],
+        url: 'https://ipasis.com',
         keywords: [
-            'illustration',
-            'app',
-            'website illustration',
-            'app illustration',
-            'design component',
-            'custom illustration',
-            'illustration component',
-            'color gradient',
-            'gradients',
-            'gallery',
-            'best illustrations',
-            'colorful illustrations',
+            'bot detection',
+            'fraud prevention',
+            'ip reputation',
+            'email validation',
+            'vpn detection',
+            'proxy detection',
+            'api security',
         ],
+    },
+    {
+        name: 'IPWho IP Geolocation API',
+        categories: ['Tooling'],
+        description:
+            '2,000 free API calls per day. Production grade IP intelligence at non-enterprise prices. Servers in 12+ regions for low latency.',
+        url: 'https://www.ipwho.org',
+        keywords: ['ip geolocation api', 'ip location api', 'ip lookup api'],
     },
     {
         name: 'isecjobs.com',
@@ -260,5 +270,12 @@ export const resources: Resource[] = [
         description: 'Carefully crafted isometric icons.',
         categories: ['Icon'],
         url: 'https://www.isocons.app',
+    },
+    {
+        name: 'ItsPaint',
+        description:
+            'Free, open-source native macOS paint app for marking up screenshots and bug reports, with numbered step badges, pixelate, and 8 export formats.',
+        categories: ['Screenshot', 'Image', 'Design'],
+        url: 'https://itspaintmac.com',
     },
 ]

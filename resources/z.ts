@@ -2,17 +2,9 @@ import { Resource } from 'types'
 
 export const resources: Resource[] = [
     {
-        name: 'ZapKit',
-        description:
-            'ZapKit is a Laravel boilerplate powered by AI that helps you build a Laravel application within minutes.',
-        categories: ['Productivity', 'AI', 'Startup'],
-        url: 'https://zapkit.dev/',
-        keywords: ['boilerplate', 'startup', 'starter kit', 'ai', 'sass'],
-    },
-    {
         name: 'Zenlogin',
         description:
-            'Security API which uses user agent, geolocation and AI and Machine Learning signals to notify your users when a suspicious login occurs. Sends out those familiar ',
+            'Security API which uses user agent, geolocation and AI and Machine Learning signals to notify your users when a suspicious login occurs. Sends out those familiar',
         categories: ['Authentication', 'Email', 'Security'],
         url: 'https://zenlogin.co',
         keywords: ['threat detection', 'suspicious login detection', 'email notifications', 'emails', 'ai', 'legal'],
@@ -51,12 +43,5 @@ export const resources: Resource[] = [
         categories: ['Email'],
         url: 'https://zyntra.app/',
         keywords: ['email', 'API', 'testing', 'qa'],
-    },
-    {
-        name: 'Zyro',
-        description:
-            'Create a website or an online store easily with Zyro website builder. Choose from hundreds of designer-made templates. Launch your website in minutes.',
-        categories: ['Website Builder'],
-        url: 'https://zyro.com//',
     },
 ]

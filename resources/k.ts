@@ -10,6 +10,13 @@ export const resources: Resource[] = [
         keywords: ['backlinks', 'netlinking', 'online reputation', 'off page seo'],
     },
     {
+        name: 'Keeping',
+        description: 'Turns Google Workspace Into Your Team’s Help Desk',
+        categories: ['Email', 'Productivity', 'Tooling'],
+        url: 'https://www.keeping.com/',
+        keywords: ['help desk', 'shared inbox for gmail', 'team email management', 'collaborative Email platform'],
+    },
+    {
         name: 'Kempo',
         description: 'Customized code playgrounds powered by CodeSandbox’s Sandpack.',
         categories: ['Programming', 'Blog'],
@@ -25,7 +32,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Kevin Powell',
-        description: 'Helping you learn how to make the web, and make it look good while you',
+        description:
+            "Helping you learn how to make the web, and make it look good while you're at it. With videos every Tuesday and Thursday, I'll be bringing you How Tos and Tutorials, as well as simple tips and tricks, with a big focus on helping people see how wonderful CSS is!",
         categories: ['Programming', 'YouTube Channel', 'Personal Website'],
         url: 'https://www.kevinpowell.co/',
     },
@@ -100,5 +108,13 @@ export const resources: Resource[] = [
             'Design',
             'Tech & Development',
         ],
+    },
+    {
+        name: 'Kube-DC Cloud',
+        description:
+            'A Kubernetes-native cloud platform to manage VMs, Kubernetes clusters, databases, and networks via manifests, AI assistants, or a real-time web console — all running in a fixed-price resource pool starting at €19/mo, hosted in Amsterdam.',
+        categories: ['Hosting', 'Cloud Computing'],
+        url: 'https://kube-dc.cloud/',
+        keywords: ['kubernetes', 'cloud hosting', 'kubevirt', 'vps', 'devops'],
     },
 ]

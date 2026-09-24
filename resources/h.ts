@@ -64,6 +64,14 @@ export const resources: Resource[] = [
         url: 'https://app.haikei.app',
     },
     {
+        name: 'Hanzilla Jobs',
+        description:
+            'Daily-updated Canadian student and recent-grad software engineering jobs board with internships, co-ops, new grad, junior, and entry-level developer roles.',
+        categories: ['Job', 'Programming'],
+        url: 'https://jobs.hanzilla.co/categories/software-engineering/',
+        keywords: ['canada', 'software engineering', 'internships', 'new grad', 'junior developer'],
+    },
+    {
         name: 'Happy Hues',
         description:
             'See color palette inspiration on a real example website. As you click on different palettes every color on this site updates to give you context of how that color could be used for your design or illustration projects.',
@@ -101,7 +109,7 @@ export const resources: Resource[] = [
         name: 'Hero Patterns',
         description: 'Zondicons.',
         categories: ['Illustration'],
-        url: 'http://www.heropatterns.com/',
+        url: 'https://www.heropatterns.com/',
     },
     {
         name: 'Heroicons',
@@ -115,6 +123,14 @@ export const resources: Resource[] = [
             'Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.',
         categories: ['Hosting'],
         url: 'https://www.heroku.com/',
+    },
+    {
+        name: 'Heroshot',
+        description:
+            'Screenshot automation CLI for documentation. Define screenshots once in config, regenerate all with one command using Playwright.',
+        categories: ['Screenshot', 'Documentation', 'Tooling'],
+        url: 'https://heroshot.sh',
+        keywords: ['screenshot', 'automation', 'documentation', 'playwright', 'cli'],
     },
     {
         name: 'Hexabot',
@@ -224,6 +240,21 @@ export const resources: Resource[] = [
         ],
     },
     {
+        name: 'HorizonX',
+        description:
+            'Premium UI and code library for vibe coders, designers, and developers, with Figma assets, components, coded templates, and interactive tools.',
+        categories: ['Library', 'UI', 'Design'],
+        url: 'https://horizonx.so',
+        keywords: ['ui components', 'design system', 'figma', 'react', 'tailwind css', 'vibe coding'],
+    },
+    {
+        name: 'Hostinger Website Builder',
+        description:
+            'Create a website or an online store easily with Hostinger Website Builder (formerly Zyro). Choose from hundreds of designer-made templates and launch your website in minutes.',
+        categories: ['Website Builder'],
+        url: 'https://www.hostinger.com/website-builder',
+    },
+    {
         name: 'Hostman',
         description: 'Cloud hosting for startups and developers.',
         categories: ['Hosting'],
@@ -301,14 +332,6 @@ export const resources: Resource[] = [
         categories: ['AI', 'Productivity', 'Writing'],
         url: 'https://humanizeaitext.ai/',
         keywords: ['ai', 'writing', 'human', 'text'],
-    },
-    {
-        name: 'Hypermail',
-        description:
-            'Hypermail is a cold email marketing solution that handles all aspects of email marketing with whitelabel built-in, email list verification, unlimited contact lists, email warm-up with AI replies & more',
-        categories: ['Email', 'Marketing'],
-        url: 'http://hypermail.com/',
-        keywords: ['email marketing', 'cold email', 'list verification', 'white labeling'],
     },
     {
         name: 'Hypertune',

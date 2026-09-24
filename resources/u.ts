@@ -9,11 +9,12 @@ export const resources: Resource[] = [
         url: 'https://neilpatel.com/ubersuggest',
     },
     {
-        name: 'Ucraft',
+        name: 'uChecker',
         description:
-            'Logo maker by Ucraft is the #1 free online logo creator, trusted by hundreds of thousands. Design a cool, professional logo and download it in a high resolution format.',
-        categories: ['Logo'],
-        url: 'https://www.ucraft.com/free-logo-maker',
+            'Email list verification (Good/Bad/Unknown) plus free SPF/DKIM/DMARC DNS checkers. No signup on the DNS tools.',
+        categories: ['Email', 'Domain', 'Tooling'],
+        url: 'https://uchecker.net',
+        keywords: ['email verification', 'dkim', 'spf', 'dmarc'],
     },
     {
         name: 'Udemy',
@@ -36,9 +37,27 @@ export const resources: Resource[] = [
         url: 'https://designcode.io/ui-design-for-developers',
     },
     {
+        name: 'UI Kits Design',
+        description: 'Find the best UI kits and component libraries to design and build websites in no time.',
+        categories: ['UI', 'Design', 'Library'],
+        url: 'https://uikits.design/',
+        keywords: [
+            'ui kit',
+            'design',
+            'component library',
+            'shadcn',
+            'tailwind',
+            'figma',
+            'ui',
+            'blocks',
+            'components',
+            'sections',
+        ],
+    },
+    {
         name: 'ui.dev',
         description: 'Comprehensive learning resources for mastering the JavaScript ecosystem.',
-        categories: ['Newsletter', 'Programming', 'Learn', 'Programming'],
+        categories: ['Newsletter', 'Programming', 'Learn'],
         url: 'https://ui.dev/',
     },
     {
@@ -69,13 +88,6 @@ export const resources: Resource[] = [
         url: 'https://uigradients.com/',
     },
     {
-        name: 'UIHut',
-        description:
-            'Download thousands of templates, illustrations, icons, and ui design kits for web and mobile app design without paying designer prices.',
-        categories: ['Design', 'Inspiration', 'UI', 'Icon', 'Illustration'],
-        url: 'https://www.uihut.com/',
-    },
-    {
         name: 'UIkit',
         description:
             'UIkit, a lightweight and modular front-end framework for developing fast and powerful web interfaces.',
@@ -83,28 +95,18 @@ export const resources: Resource[] = [
         url: 'https://getuikit.com/',
     },
     {
-        name: 'UI Kits Design',
-        description: 'Find the best UI kits and component libraries to design and build websites in no time.',
-        categories: ['UI', 'Design', 'Library'],
-        url: 'https://uikits.design/',
-        keywords: [
-            'ui kit',
-            'design',
-            'component library',
-            'shadcn',
-            'tailwind',
-            'figma',
-            'ui',
-            'blocks',
-            'components',
-            'sections',
-        ],
-    },
-    {
         name: 'Uiverse',
         description: 'Community-made library of free and customizable UI elements made with CSS or Tailwind. It',
-        categories: ['Design', 'Inspiration', 'UI', 'Illustration'],
+        categories: ['Design', 'Inspiration', 'UI'],
         url: 'https://uiverse.io/',
+    },
+    {
+        name: 'UIZZE',
+        description:
+            'Fix AI UI slop before it ships with a free-to-browse Web and iOS reference catalog plus full-access research tools for coding agents.',
+        categories: ['AI', 'Design', 'UI'],
+        url: 'https://uizze.com',
+        keywords: ['ai agents', 'coding agents', 'ui reference', 'web ui', 'ios ui', 'mcp', 'anti-slop'],
     },
     {
         name: 'Ultimate Web Speed',
@@ -143,6 +145,13 @@ export const resources: Resource[] = [
         url: 'https://undraw.co/',
     },
     {
+        name: 'unlearn.dev',
+        description:
+            'Unlearn.dev is developer education for the AI era and beyond. It helps engineers turn AI into a 24/7 execution team while strengthening the judgment, architecture, and evaluation skills that make developers irreplaceable.',
+        categories: ['AI', 'Learn', 'Programming'],
+        url: 'https://unlearn.dev/',
+    },
+    {
         name: 'Unscreen',
         description:
             'Remove the background of any video - 100% automatically, online & free! Goodbye Greenscreen. Hello Unscreen.',
@@ -179,13 +188,6 @@ export const resources: Resource[] = [
         keywords: ['database', 'redis', 'serverless', 'durable storage', 'low latency'],
     },
     {
-        name: 'Upto.Site',
-        description: 'Upto.Site is the ultimate url shortener which can be used to create instant FREE short urls.',
-        categories: ['Tooling'],
-        url: 'https://upto.site',
-        keywords: ['url shortener', 'link', 'link shortener', 'link shortener api'],
-    },
-    {
         name: 'Upwork',
         description:
             'Upwork connects businesses of all sizes to freelancers, independent professionals, and agencies for all their hiring needs. Scale your workforce dynamically as business needs change.',
@@ -193,18 +195,11 @@ export const resources: Resource[] = [
         url: 'https://www.upwork.com/',
     },
     {
-        name: 'Up For Grabs',
-        description:
-            'This is a list of projects which have curated tasks specifically for new contributors. These are a great way to get started with a project, or to help share the load of working on open source projects.',
-        categories: ['Hacktoberfest', 'Open Source'],
-        url: 'https://up-for-grabs.net/#/',
-    },
-    {
         name: 'Url Opener',
         description: 'Open multiple urls with one click',
         categories: ['Extension', 'Productivity', 'Browser'],
-        url: 'https://chromewebstore.google.com/detail/url-opener/bebeelnjlafedkhklobpglpelcmidaee?hl=en',
-        keywords: ['url opener', 'open multiple urls', 'multiple url opener​', 'link opener'],
+        url: 'https://chromewebstore.google.com/detail/url-opener/bebeelnjlafedkhklobpglpelcmidaee',
+        keywords: ['url opener', 'open multiple urls', 'multiple url opener', 'link opener'],
     },
     {
         name: 'Use The Keyboard',
@@ -233,6 +228,14 @@ export const resources: Resource[] = [
         categories: ['SEO', 'Tooling', 'Startup'],
         url: 'https://utilportal.com/',
         keywords: ['directory', 'tools', 'development', 'seo'],
+    },
+    {
+        name: 'Uwarp',
+        description:
+            'Free browser UI design tools for developers and designers—SVG, color, icons, mockups, image and audio converters. No signup required.',
+        categories: ['Design', 'UI', 'Tooling'],
+        url: 'https://www.uwarp.design/',
+        keywords: ['design tools', 'svg', 'color', 'icons', 'mockups', 'ui tools'],
     },
     {
         name: 'UXfolio',

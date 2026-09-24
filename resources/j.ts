@@ -15,19 +15,6 @@ export const resources: Resource[] = [
         url: 'https://www.heavybit.com/library/podcasts/jamstack-radio/',
     },
     {
-        name: 'JAMstacked',
-        description: 'An email update on the evolving JAMstack ecosystem.',
-        categories: ['Newsletter', 'Programming'],
-        url: 'https://jamstack.email/',
-    },
-    {
-        name: 'JavaScript Developer Jobs',
-        description:
-            'Find specific JavaScript Developer Jobs, including Remote Jobs. You are looking for JavaScript Developers? Submit your position for free.',
-        categories: ['Job'],
-        url: 'https://javascriptjob.xyz/',
-    },
-    {
         name: 'JavaScript for impatient programmers',
         description:
             'This book makes JavaScript less challenging to learn for newcomers, by offering a modern view that is as consistent as possible.',
@@ -47,6 +34,14 @@ export const resources: Resource[] = [
             'Collection of questions that can help you improve your JavaScript knowledge and prepare to an interview.',
         categories: ['Interview'],
         url: 'https://iq.js.org/',
+    },
+    {
+        name: 'JavaScript Tools',
+        description:
+            'JSTools.Space is a growing collection of privacy-first online developer tools for everyday programming, testing, debugging, writing, and data work.',
+        categories: ['Productivity'],
+        url: 'https://www.jstools.space/',
+        keywords: ['javascript', 'tool', 'json', 'jwt', 'security'],
     },
     {
         name: 'JavaScript Tutorial',
@@ -75,10 +70,12 @@ export const resources: Resource[] = [
         url: 'https://jestjs.io/',
     },
     {
-        name: 'Job.zip',
-        description: 'We analyze over 10 million jobs per month to identify trends.',
+        name: 'JobBoardSearch 🔎',
         categories: ['Job'],
-        url: 'https://job.zip',
+        description:
+            'Meta directory of job boards with filters. Helping: Job seekers to find jobs, Job boards to promote, Recruiters to find the best candidates',
+        url: 'https://jobboardsearch.com/',
+        keywords: ['jobs', 'job boards'],
     },
     {
         name: 'Jobicy',
@@ -89,10 +86,12 @@ export const resources: Resource[] = [
         keywords: ['remote jobs', 'remote work', 'jobs', 'employment'],
     },
     {
-        name: 'Joblist.app',
-        description: 'A Job Board for Tech Enthusiasts.',
-        categories: ['Job'],
-        url: 'https://joblist.app/',
+        name: 'JobsPipe',
+        description:
+            'Job postings from 30+ ATS and job boards, deduplicated into one JSON schema with salary, seniority and tech stack fields. REST API, CLI and Python/Go SDKs.',
+        categories: ['Job', 'Scraping'],
+        url: 'https://jobspipe.dev',
+        keywords: ['jobs api', 'job postings', 'job data', 'ats', 'tech stack'],
     },
     {
         name: 'Jobspresso',
@@ -135,7 +134,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Jsonify',
-        description: 'Jsonify is an AI ',
+        description:
+            'Jsonify is an AI "data intern" in the cloud -- an intelligent AI agent that can automate data collection and maintenance tasks involving the web and documents. Never update a spreadsheet yourself again!',
         categories: ['AI', 'Programming', 'Code Snippet'],
         url: 'https://jsonify.com',
     },
@@ -148,26 +148,10 @@ export const resources: Resource[] = [
         keywords: ['JSON', 'JSON Schema'],
     },
     {
-        name: 'Juno',
-        description:
-            'Juno is an open-source serverless platform for hosting static websites, building web applications, and running serverless functions with the privacy and control of self-hosting.',
-        categories: ['Serverless', 'Productivity', 'Cloud Computing'],
-        url: 'https://juno.build/',
-        keywords: ['authentication', 'database', 'hosting', 'storage', 'analytics', 'serverless', 'development'],
-    },
-    {
         name: 'JustRemote',
         description:
             'Discover Remote Jobs from around the world. Give up the commute, work remotely and do what you love, daily, from anywhere. Find your perfect remote development, design, sales or marketing job today.',
         categories: ['Job', 'Remote'],
         url: 'https://justremote.co/',
-    },
-    {
-        name: 'JobBoardSearch 🔎',
-        categories: ['Job'],
-        description:
-            'Meta directory of job boards with filters. Helping: Job seekers to find jobs, Job boards to promote, Recruiters to find the best candidates',
-        url: 'https://jobboardsearch.com/',
-        keywords: ['jobs', 'job boards'],
     },
 ]

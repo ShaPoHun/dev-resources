@@ -15,10 +15,18 @@ export const resources: Resource[] = [
     },
     {
         name: 'Namekit',
-        description: 'AI-powered domain search - find available, standard-price names instantly. ',
+        description: 'AI-powered domain search - find available, standard-price names instantly.',
         categories: ['Domain'],
         url: 'https://namekit.app',
         keywords: ['domain name', 'dev tools', 'AI', 'CLI'],
+    },
+    {
+        name: 'Naratake',
+        description:
+            'Drag-and-drop website builder for local businesses. 111 components, 15 design styles, publishes a real Next.js app with full source-code export.',
+        categories: ['Website Builder', 'CMS', 'Template'],
+        url: 'https://naratake.com',
+        keywords: ['website builder', 'no-code', 'next.js', 'small business', 'source code export'],
     },
     {
         name: 'Narrow AI',
@@ -29,11 +37,34 @@ export const resources: Resource[] = [
         keywords: ['automation', 'prompt engineering', 'llm'],
     },
     {
+        name: 'NAT Checker',
+        description:
+            'Free, fast, accurate NAT check for developers and gamers on PS5, Xbox, Switch, and PC. Understand network status and improve play.',
+        categories: ['Productivity', 'Testing', 'Tooling'],
+        url: 'https://natchecker.com',
+        keywords: ['network testing', 'network troubleshoot', 'nat type test'],
+    },
+    {
         name: 'NativeBridge',
         description: 'Show, Share, Approve: Mobile Apps in Any Browser',
         categories: ['Productivity', 'Testing', 'Tooling'],
         url: 'https://nativebridge.io/',
         keywords: ['mobile app testing', 'mobile emulator', 'app testing', 'iOS testing'],
+    },
+    {
+        name: 'Nearbase',
+        description: 'Affordable managed Postgres in Asia',
+        categories: ['Database', 'Hosting', 'Cloud Computing'],
+        url: 'https://nearbase.dev/',
+        keywords: ['database', 'postgreSQL', 'dbaaS', 'postgres hosting'],
+    },
+    {
+        name: 'Neenja AI',
+        description:
+            'Neenja AI is a real-time AI platform that provides assistance during live interviews and assessments.',
+        categories: ['Interview'],
+        url: 'https://www.neenja.ai/',
+        keywords: ['AI Interview Assistance', 'Assessments', 'AI'],
     },
     {
         name: 'Netlify',
@@ -57,12 +88,28 @@ export const resources: Resource[] = [
         url: 'https://nextjs.org/',
     },
     {
+        name: 'Nextjsshop',
+        description:
+            'Premium Next.js UI components and templates for SaaS, landing pages, and product websites, designed to accelerate modern storefront and marketing sites.',
+        categories: ['Programming', 'Template'],
+        url: 'https://nextjsshop.com',
+        keywords: ['next.js', 'ecommerce', 'templates', 'UI components', 'storefront', 'react'],
+    },
+    {
+        name: 'NexTool',
+        description:
+            '228+ free browser-based developer tools including JSON formatter, Base64 encoder, regex tester, color converter, UUID generator, and more. No signup required.',
+        categories: ['Tooling', 'Programming'],
+        url: 'https://nextool.app/free-tools/',
+        keywords: ['developer tools', 'free tools', 'json', 'base64', 'regex', 'converter', 'formatter', 'generator'],
+    },
+    {
         name: 'Nextradar',
         description:
             'Navigate the Next.js Ecosystem with ease. Stay up to date with the latest Next.js tools and resources.',
         categories: ['Learn', 'Programming'],
         url: 'https://nextradar.dev',
-        keywords: ['Nextjs', 'React', 'Vercel'],
+        keywords: ['nextjs', 'react', 'vercel'],
     },
     {
         name: 'NextReady',
@@ -88,11 +135,19 @@ export const resources: Resource[] = [
         keywords: ['developer tool', 'boilerplate', 'starter kit', 'next.js boilerplate'],
     },
     {
+        name: 'Nexus Shell',
+        description:
+            'Native macOS SSH workspace with terminal sessions, two-pane SFTP, server monitoring, Docker tools, encrypted logs, and optional local agent access.',
+        categories: ['Terminal', 'Tooling', 'Remote'],
+        url: 'https://nexusshell.app',
+        keywords: ['ssh', 'sftp', 'macos', 'server monitoring', 'docker', 'mcp', 'remote development'],
+    },
+    {
         name: 'Niche Tools',
         description:
             'Ditch the endless market research and unlock instant access to over 1200+ web tools you can build today',
         categories: ['SEO', 'Marketing'],
-        url: ' https://nichetools.net',
+        url: 'https://nichetools.net',
         keywords: ['SEO', 'Marketing'],
     },
     {
@@ -103,11 +158,12 @@ export const resources: Resource[] = [
         keywords: ['serverless', 'cloud', 'development', 'framework'],
     },
     {
-        name: 'No-Code Scraper',
-        description: 'Seamlessly extract data from any website with just a few simple inputs.',
-        categories: ['Scraping', 'AI'],
-        url: 'https://www.nocodescraper.com',
-        keywords: ['scraper', 'no code', 'ai web scraper', 'web scraper', 'visual web scraper', 'web scraping'],
+        name: 'No Code Website Builder',
+        description:
+            'A marketplace for premium no-code website, web app, and mobile app templates built on platforms like Webflow, Framer, Bubble, Lovable, Replit and more.',
+        categories: ['Design', 'Template', 'Website Builder'],
+        url: 'https://nocodewebsitebuilder.com',
+        keywords: ['no-code', 'templates', 'webflow', 'framer', 'bubble'],
     },
     {
         name: 'Nomad List',
@@ -157,5 +213,13 @@ export const resources: Resource[] = [
         categories: ['Resume'],
         url: 'https://novoresume.com/',
         keywords: ['professional resume builder'],
+    },
+    {
+        name: 'Nutilz',
+        description:
+            'Free browser-based developer tools including regex tester, JSON formatter, converters, and calculators. No sign-up required.',
+        categories: ['Tooling', 'Productivity', 'Code Generator'],
+        url: 'https://nutilz.com',
+        keywords: ['regex', 'json', 'developer tools', 'converters', 'calculators'],
     },
 ]

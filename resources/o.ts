@@ -3,7 +3,7 @@ import { Resource } from 'types'
 export const resources: Resource[] = [
     {
         name: 'Obi Helper',
-        description: 'Simple AI chat widget for small businesses that aren',
+        description: "Simple AI chat widget for small businesses that aren't ready for Intercom-like solutions.",
         categories: ['AI', 'Productivity'],
         url: 'https://www.obihelper.com/',
     },
@@ -36,11 +36,11 @@ export const resources: Resource[] = [
         url: 'https://www.offen.dev/',
     },
     {
-        name: 'OkJob',
-        description: '4 day Week Job Board',
-        categories: ['Job'],
-        url: 'https://okjob.io/',
-        keywords: ['Flexible work schedule', 'Work-life balance', 'Remote work options'],
+        name: 'Omnara',
+        description: 'Command Center for AI Coding Agents',
+        categories: ['AI', 'Programming', 'Tooling'],
+        url: 'https://www.omnara.com/',
+        keywords: ['ai coding agents', 'claude code', 'mobile app', 'voice control'],
     },
     {
         name: 'One Page Love',
@@ -104,10 +104,17 @@ export const resources: Resource[] = [
     },
     {
         name: 'Open Ports',
-        description: 'Manage open ports from your macOS menu bar. Never google ',
+        description: 'Manage open ports from your macOS menu bar. Never google "How to kill a process by port?" again.',
         categories: ['Tooling'],
         url: 'https://openports.app',
         keywords: ['web development', 'containers', 'macOS'],
+    },
+    {
+        name: 'Open Source Alternatives',
+        description: 'Handpicked Open Source Alternatives to Paid Softwares',
+        categories: ['Open Source', 'Productivity', 'Tooling'],
+        url: 'https://www.opensourcealternatives.to',
+        keywords: ['directory', 'open source', 'marketing tools', 'development tools', 'alternatives'],
     },
     {
         name: 'Open Source Boilerplates',
@@ -131,6 +138,14 @@ export const resources: Resource[] = [
         url: 'https://openvim.com/',
     },
     {
+        name: 'open-banking.io',
+        description:
+            'Unified REST API for European bank accounts. PSD2 open-banking data — connect to thousands of EU banks without your own banking certificates.',
+        categories: ['API Building'],
+        url: 'https://open-banking.io',
+        keywords: ['open banking', 'psd2', 'bank api', 'fintech', 'payments'],
+    },
+    {
         name: 'OpenChakra',
         description: 'React JSX visual editor for Chakra UI.',
         categories: ['Prototyping', 'UI'],
@@ -143,20 +158,6 @@ export const resources: Resource[] = [
         url: 'https://opensource.builders/',
     },
     {
-        name: 'Open Source Alternatives',
-        description: 'Handpicked Open Source Alternatives to Paid Softwares',
-        categories: ['Open Source', 'Productivity', 'Tooling'],
-        url: 'https://www.opensourcealternatives.to',
-        keywords: ['directory', 'open source', 'marketing tools', 'development tools', 'alternatives'],
-    },
-    {
-        name: 'Opera',
-        categories: ['Browser'],
-        description:
-            "Get a faster, better browser. Opera's free VPN, Ad Blocker, integrated messengers and private mode help you browse securely and smoothly. Share files instantly between your desktop and mobile browsers and experience web 3.0 with a free cryptowallet.",
-        url: 'https://www.opera.com/',
-    },
-    {
         name: 'OpenTools',
         description:
             'Discover and compare over 10,000 AI tools, curated and ranked by our community of over 50,000 users.',
@@ -166,7 +167,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Opera',
-        description: 'Get a faster, better browser. Opera',
+        description:
+            "Get a faster, better browser. Opera's free VPN, Ad Blocker, integrated messengers and private mode help you browse securely and smoothly. Share files instantly between your desktop and mobile browsers and experience web 3.0 with a free cryptowallet.",
         categories: ['Browser'],
         url: 'https://www.opera.com/',
     },
@@ -176,6 +178,32 @@ export const resources: Resource[] = [
             'Optimize images online with this free tool, compress & convert images in PNG, JPEG, SVG, AVIF, WebP and GIF formats, and even get picture HTML tags for correct implementation.',
         categories: ['Editor', 'Image'],
         url: 'https://www.optimizeimages.com',
+    },
+    {
+        name: 'Orbi',
+        description:
+            'Takes a labeled GitHub Issue through implementation, an independent review that can block the merge, and a tagged release, with no human in the loop.',
+        categories: ['AI', 'Programming', 'Tooling'],
+        url: 'https://orbi.build/',
+    },
+    {
+        name: 'OrcaSheets',
+        description:
+            'Local-first spreadsheet analytics that processes billions of rows on your PC and adds AI insights while keeping sensitive data under your control.',
+        categories: ['Analytics', 'Productivity'],
+        url: 'https://orcasheets.ai/',
+        keywords: [
+            'spreadsheet',
+            'analytics',
+            'big data',
+            'local-first',
+            'privacy',
+            'AI',
+            'data analysis',
+            'billion rows',
+            'offline',
+            'desktop',
+        ],
     },
     {
         name: 'Orion',

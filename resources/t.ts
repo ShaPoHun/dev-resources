@@ -23,7 +23,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Tailor Brands',
-        description: 'Tailor Brands AI logo maker allows you to create a logo design that',
+        description:
+            "Tailor Brands AI logo maker allows you to create a logo design that's a perfect match for your business. No pre-made logo templates. Unique designs only.",
         categories: ['Logo'],
         url: 'https://www.tailorbrands.com/logo-maker',
     },
@@ -55,6 +56,13 @@ export const resources: Resource[] = [
         url: 'https://tatask.com/',
     },
     {
+        name: 'TeamBrain',
+        description: 'Shared workspace for AI teams',
+        categories: ['Productivity', 'AI', 'Startup'],
+        url: 'https://teambrain.co/',
+        keywords: ['team collaboration', 'productivity tool', 'project management', 'knowledge base'],
+    },
+    {
         name: 'Tech Blogs',
         description: 'This is a list of Awesome Tech Blogs. Add yourself.',
         categories: ['Blog'],
@@ -83,23 +91,6 @@ export const resources: Resource[] = [
         url: 'https://techcrunch.com/',
     },
     {
-        name: 'Techstarta',
-        description:
-            'Empower your tech career with Techstarta! Gain hands-on project experience and mentorship to connect with industry experts.',
-        categories: ['Learn', 'AI'],
-        url: 'https://techstarta.com/',
-        keywords: [
-            'Techstarta',
-            'Tech career',
-            'Hands-on experience',
-            'Mentorship',
-            'Industry experts',
-            'Early-career professionals',
-            'Skill development',
-            'Tech projects',
-        ],
-    },
-    {
         name: 'TechTeamFinder',
         description: 'Connect companies with engineering teams',
         categories: ['Job', 'Startup'],
@@ -114,6 +105,14 @@ export const resources: Resource[] = [
         url: 'https://templated.io/',
     },
     {
+        name: 'TemplateFox',
+        description:
+            'Generate PDFs from reusable templates via API. Design templates visually, then generate documents with dynamic data using a REST API or SDKs in 7 languages.',
+        categories: ['API Building', 'Template', 'Editor'],
+        url: 'https://pdftemplateapi.com',
+        keywords: ['pdf', 'api', 'pdf generation', 'template', 'document automation', 'invoice generator'],
+    },
+    {
         name: 'TemplateMo',
         description:
             'Download 548+ free HTML CSS website templates that included 140+ responsive Bootstrap themes from templatemo and use them for your sites.',
@@ -126,6 +125,14 @@ export const resources: Resource[] = [
         categories: ['Accessibility'],
         url: 'https://tenon.io/',
         keywords: ['accessibility', 'a11y', 'testing'],
+    },
+    {
+        name: 'Test API',
+        description:
+            'Use Test API for RESTful API testing. This Postman alternative tests REST APIs online with support for all HTTP methods, custom headers, and real-time response visualization.',
+        categories: ['Browser', 'Extension'],
+        url: 'https://chromewebstore.google.com/detail/test-api/bkndipmbnodeicgpmldococoiolcoicg',
+        keywords: ['api', 'rest', 'http', 'postman', 'developer', 'testing', 'endpoint', 'request', 'json', 'curl'],
     },
     {
         name: 'Test Automation University',
@@ -189,6 +196,22 @@ export const resources: Resource[] = [
         url: 'https://www.testing-whiz.com/',
     },
     {
+        name: 'TestSprite',
+        description:
+            'The most powerful AI testing tool for testing, fixing, and validating your software in one automated flow.',
+        categories: ['Testing', 'AI', 'Tooling'],
+        url: 'https://www.testsprite.com/',
+        keywords: ['ai testing agent', 'testing automation', 'software qa', 'ui testing'],
+    },
+    {
+        name: 'Text Differ',
+        description:
+            "Whether you're revising an article, checking document updates, or reviewing code, Text Differ helps you spot every change quickly and confidently.",
+        categories: ['Tooling'],
+        url: 'https://text-differ.com/',
+        keywords: ['text compare', 'text differ', 'compare', 'productivity', 'devtool', 'json formatter'],
+    },
+    {
         name: 'The A11Y Project',
         description: 'The A11Y Project is a community-driven effort to make digital accessibility easier.',
         categories: ['Accessibility'],
@@ -222,7 +245,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'The Hammerstone Podcast',
-        description: 'Listen in on Sean',
+        description:
+            "Listen in on Sean's and Aaron's weekly conversation. No intro, no editing, no music. Proudly hosted on transistor.fm!",
         categories: ['Podcast', 'Startup'],
         url: 'https://hammerstone.dev/podcast',
     },
@@ -255,7 +279,7 @@ export const resources: Resource[] = [
         name: 'The Net Ninja',
         description:
             'Black-belt your web skills. Learn JavaScript, CSS, Node.js, React, Vue.js, Firebase, HTML & more.',
-        categories: ['Programming', 'YouTube Channel', 'Learn', 'Programming'],
+        categories: ['Programming', 'YouTube Channel', 'Learn'],
         url: 'https://www.thenetninja.co.uk/',
         keywords: [
             'html css javascript tutorials web design web development development front-end development wordpress mvc responsive design beginner html beginner ...',
@@ -264,7 +288,7 @@ export const resources: Resource[] = [
     {
         name: 'Themeselection',
         description:
-            ' Selected high quality, modern design, professional and easy-to-use Free Admin Dashboard Template, HTML Themes and UI Kits to create your applications faster.',
+            'Selected high quality, modern design, professional and easy-to-use Free Admin Dashboard Template, HTML Themes and UI Kits to create your applications faster.',
         categories: ['Template'],
         url: 'https://themeselection.com/',
         keywords: ['HTML', 'css', 'Admin template', 'bootstrap', 'Vuejs admin templates', 'UI kits', 'Freebies'],
@@ -278,9 +302,17 @@ export const resources: Resource[] = [
     },
     {
         name: 'Thirus',
-        description: 'Thirus (pronounced ',
+        description:
+            'Thirus (pronounced "thigh-rus") is an effort to bring hundreds of simple web development tips and tutorials together that you can consume regularly on your coding journey. I am Shruti Balasa - the owner of this channel. I\'m a Full Stack Web Developer, Mentor, Course Creator, Tech Speaker and now a Youtuber from Bangalore, India.',
         categories: ['Programming', 'YouTube Channel'],
         url: 'https://www.youtube.com/channel/UCDQTzZ871T7uJpx9yeMPhAw',
+    },
+    {
+        name: 'Thridy',
+        description:
+            'Free library of 13,000+ 3D icons rendered in one consistent style. Icons download as HD transparent PNGs, free for personal and commercial use with no attribution or signup.',
+        categories: ['Icon'],
+        url: 'https://thridy.com',
     },
     {
         name: 'TinyPNG',
@@ -312,14 +344,50 @@ export const resources: Resource[] = [
     },
     {
         name: 'Toksta',
-        description: 'AI Software Research Agent',
-        categories: ['Marketing', 'AI', 'Analytics'],
+        description: 'B2B Influencer Marketing Platform',
+        categories: ['Marketing', 'Social Media', 'AI'],
         url: 'https://www.toksta.com',
+        keywords: ['b2b influencer marketing', 'influencer discovery', 'influencer analytics', 'creator intelligence'],
+    },
+    {
+        name: 'ToolKit',
+        description:
+            'ToolKit is a collection of free online utilities built for developers, designers, and everyday users. Every tool runs entirely in the browser using Web APIs — nothing is sent to a server.',
+        categories: ['Tooling'],
+        url: 'https://www.webtoolkit.tech',
         keywords: [
-            'b2b saas influencer marketing',
-            'saas tool discovery',
-            'influencer data platform',
-            'ai-powered software research',
+            'developer tools',
+            'online tools',
+            'password generator',
+            'JSON formatter',
+            'regex tester',
+            'base64',
+            'free tools',
+            'browser-based',
+            'no signup',
+        ],
+    },
+    {
+        name: 'Tools in a Tab',
+        description:
+            'Free browser tools for JSON, YAML, Base64, Unix timestamps and SHA-256. Local input processing, no account required; English and Spanish.',
+        categories: ['Tooling', 'Productivity'],
+        url: 'https://toolsinatab.com/',
+        keywords: ['json', 'yaml', 'base64', 'timestamp', 'sha256'],
+    },
+    {
+        name: 'ToolSuite',
+        description:
+            'ToolSuite provides free in-browser developer utilities including Base64 encoder, Unix timestamp converter, JSON formatter, and image optimization tools.',
+        categories: ['Tooling', 'Productivity'],
+        url: 'https://toolsuite.fit',
+        keywords: [
+            'developer tools',
+            'base64 encoder',
+            'unix timestamp',
+            'json formatter',
+            'image compressor',
+            'browser-based',
         ],
     },
     {
@@ -337,11 +405,32 @@ export const resources: Resource[] = [
         url: 'https://www.tooplate.com/',
     },
     {
+        name: 'Top SaaS Directories',
+        description: '100+ Top Directories and Launch Platforms to List your SaaS',
+        categories: ['Marketing', 'SEO', 'Startup'],
+        url: 'https://topsaasdirectories.com/',
+        keywords: ['startup directory', 'saas directory', 'software directory', 'productivity'],
+    },
+    {
         name: 'Toptal',
         description:
             'Toptal enables start-ups, businesses, and organizations to hire freelancers from a growing network of top talent in the world. Find quality talent to work full-time, part-time, or hourly who will seamlessly integrate into your team.',
         categories: ['Freelance'],
         url: 'https://www.toptal.com/',
+    },
+    {
+        name: 'Trackee',
+        description: 'SEO & AI visibility, in one API',
+        categories: ['SEO', 'Marketing', 'Analytics'],
+        url: 'https://www.trackee.dev/',
+        keywords: ['ai visibility api', 'seo api', 'ai search tracking', 'brand monitoring'],
+    },
+    {
+        name: 'TrackingCoder',
+        description: 'Set up website tracking in 2 minutes, not 2 hours.',
+        categories: ['Analytics', 'Marketing', 'Tooling'],
+        url: 'https://trackingcoder.com/',
+        keywords: ['website tracking', 'conversion tracking', 'ads tracking', 'google analytics'],
     },
     {
         name: 'Trails',
@@ -353,6 +442,27 @@ export const resources: Resource[] = [
             'process documentation software',
             'training documentation tool',
             'workflow documentation software',
+        ],
+    },
+    {
+        name: 'TranscriptFetch',
+        description:
+            'Transcript data from any YouTube, TikTok or Instagram video, or a whole channel or playlist, inside your assistant. Analyze a video, a creator, or a whole topic.',
+        categories: ['Video'],
+        url: 'https://transcriptfetch.com',
+        keywords: [
+            'transcript',
+            'youtube',
+            'tiktok',
+            'instagram',
+            'podcast',
+            'spotify',
+            'captions',
+            'subtitles',
+            'speech-to-text',
+            'video',
+            'llm',
+            'rag',
         ],
     },
     {
@@ -389,19 +499,19 @@ export const resources: Resource[] = [
     {
         name: 'Traversy Media',
         description:
+            'Traversy Media offers professional, project-based web development and programming courses that explain complex topics in an easy-to-understand manner. Learn HTML, CSS, JavaScript, PHP, Python and More.',
+        categories: ['Learn', 'Programming'],
+        url: 'https://www.traversymedia.com/',
+    },
+    {
+        name: 'Traversy Media - YouTube Channel',
+        description:
             'Traversy Media features the best online web development and programming tutorials for all of the latest web technologies including Node.js, Angular 2, React.js, PHP, Rails, HTML, CSS and much more.',
         categories: ['Programming', 'YouTube Channel'],
         url: 'https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA',
         keywords: [
             'Programming Tutorials Web Development Tutorials Web Development Videos Web Design Tutorials Learn Web Design Learn Programming',
         ],
-    },
-    {
-        name: 'Traversy Media',
-        description:
-            'Traversy Media offers professional, project-based web development and programming courses that explain complex topics in an easy-to-understand manner. Learn HTML, CSS, JavaScript, PHP, Python and More.',
-        categories: ['Learn', 'Programming'],
-        url: 'https://www.traversymedia.com/',
     },
     {
         name: 'Treblle',
@@ -474,6 +584,14 @@ export const resources: Resource[] = [
         keywords: ['developer tool', 'email validation', 'sales prospecting', 'email deliverability'],
     },
     {
+        name: 'Tura',
+        description:
+            'Tura is a local, open-source coding agent for developers tired of vague claims, evidence-free token-saving tools, and agents that edit before understanding.',
+        categories: ['AI', 'Programming', 'Terminal'],
+        url: 'https://turaai.net/',
+        keywords: ['coding agent', 'developer tool', 'rust', 'cli', 'tui', 'open source'],
+    },
+    {
         name: 'Tweet Detective',
         description:
             'Discover the power of AI detection on Twitter. Our tool uses advanced algorithms to analyze and reveal AI-generated content',
@@ -484,7 +602,7 @@ export const resources: Resource[] = [
     {
         name: 'Tweet Hunter',
         description:
-            'Build and monetize your Twitter audience. Get sales, growth and new networks. Faster than what you',
+            "Build and monetize your Twitter audience. Get sales, growth and new networks. Faster than what you're currently trying.",
         categories: ['Marketing', 'Social Media'],
         url: 'https://tweethunter.io',
         keywords: ['twitter', 'growth', 'scheduling', 'social media'],
@@ -505,6 +623,14 @@ export const resources: Resource[] = [
         keywords: ['typing'],
     },
     {
+        name: 'TypeQuicker',
+        description:
+            'Practice typing code in any language. Learn touch typing. Type paragraphs from books, trivia and mure more',
+        categories: ['Typing', 'Learn'],
+        url: 'https://typequicker.com',
+        keywords: ['typing', 'touch typing', 'ai-powered', 'typing speed', 'programming languages'],
+    },
+    {
         name: 'Typersguild',
         description: 'Master typing by typing out classic literature and wikipedia articles',
         categories: ['Typing'],
@@ -512,12 +638,36 @@ export const resources: Resource[] = [
         keywords: ['typing', 'touch typing', 'type books', 'type wikipedia'],
     },
     {
-        name: 'TypeQuicker',
+        name: 'TypersWorld',
         description:
-            'Practice typing code in any language. Learn touch typing. Type paragraphs from books, trivia and mure more',
-        categories: ['Typing', 'Learn'],
-        url: 'https://typequicker.com',
-        keywords: ['typing', 'touch typing', 'ai-powered', 'typing speed', 'programming languages'],
+            'Improve your typing skills with our free typing game. Explore single-player and multiplayer typing games to improve your typing speed and accuracy.',
+        categories: ['Typing'],
+        url: 'https://www.typersworld.com',
+        keywords: [
+            'typing speed test',
+            'typing speedtest',
+            'typing test',
+            'speetest',
+            'speed test',
+            'typing',
+            'test',
+            'typing-test',
+            'typing test',
+            'typers-world',
+            'typersworld',
+            'typers world',
+            'multiplayer typing website',
+            'free typing test',
+            'free typing website',
+            'words per minute',
+        ],
+    },
+    {
+        name: 'Typing Words GIF',
+        description: 'Free online typing text GIF maker — type words and export animated GIF, no login.',
+        categories: ['Image'],
+        url: 'https://typingwordsgif.com/',
+        keywords: ['typing gif', 'text gif', 'animation'],
     },
     {
         name: 'TypingBeast',
@@ -533,5 +683,13 @@ export const resources: Resource[] = [
         categories: ['Typing'],
         url: 'https://www.typingclub.com/',
         keywords: ['typing', 'typing tutorial', 'free touch typing tutorial', 'touch typing', 'typing game'],
+    },
+    {
+        name: 'Typre',
+        description:
+            'Typing practice for programmers: real code in 14 languages, live races, and a drill for brackets and operators. Works offline, no account needed.',
+        categories: ['Learn', 'Typing'],
+        url: 'https://www.typre.dev',
+        keywords: ['typing', 'code typing', 'programming', 'wpm', 'touch typing'],
     },
 ]

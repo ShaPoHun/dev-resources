@@ -25,13 +25,6 @@ export const resources: Resource[] = [
         ],
     },
     {
-        name: '1LOC',
-        description: 'Favorite JavaScript Utilities in single line of code! No more!',
-        categories: ['Code Snippet'],
-        url: 'https://1loc.dev/',
-        keywords: ['JavaScript', 'JavaScript Utilities', 'one-liner', 'one-liner javascript'],
-    },
-    {
         name: '30 seconds of code',
         description: 'Browse 1078 short code snippets for all your development needs on 30 seconds of code.',
         categories: ['Code Snippet'],
@@ -43,6 +36,23 @@ export const resources: Resource[] = [
             'A collection of over 5000 3D icons and characters with 4k resolution, each icon delivered in 5 color palettes, front and perspective views.',
         categories: ['Icon'],
         url: 'https://www.3dicons.com/',
+    },
+    {
+        name: '3STF Tools',
+        description:
+            'A clean collection of free browser tools for developers, writers, and creators. No accounts. No ads. No data collected.',
+        categories: ['Tooling', 'Productivity'],
+        url: 'https://www.3stf.com/',
+        keywords: [
+            'json formatter',
+            'image converter',
+            'password generator',
+            'word counter',
+            'developer tools',
+            'free tools',
+            'privacy',
+            'client-side',
+        ],
     },
     {
         name: '4 day week',

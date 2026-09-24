@@ -2,9 +2,17 @@ import { Resource } from 'types'
 
 export const resources: Resource[] = [
     {
+        name: 'A Box of Tools',
+        description:
+            'Client-side file tools for developers: format JSON, diff text, base64, hashes, favicons, image to data URI, compress images. No upload.',
+        categories: ['Image', 'Tooling', 'Open Source'],
+        url: 'https://abox.tools',
+        keywords: ['json formatter', 'base64', 'favicon', 'image compression', 'client-side', 'no upload'],
+    },
+    {
         name: 'A1',
         description: 'A collection of the best websites found on the web',
-        categories: ['Design', 'Inspiration', 'UI', 'UX', 'Template'],
+        categories: ['Design', 'Inspiration', 'UI'],
         url: 'https://www.a1.gallery/',
         keywords: ['website design', 'inspiration', 'web', 'gallery'],
     },
@@ -57,6 +65,14 @@ export const resources: Resource[] = [
         keywords: ['saas', 'starter kit', 'boilerplate', 'next.js', 'shadcn', 'next-auth', 'prisma'],
     },
     {
+        name: 'Actvt',
+        description:
+            'macOS menu bar app that monitors your Mac and your AI coding agents, with Claude Code and Codex session history, cost and token analytics, and an embedded MCP server.',
+        categories: ['AI', 'Productivity', 'Tooling'],
+        url: 'https://actvt.io',
+        keywords: ['macos', 'menu bar', 'system monitor', 'claude code', 'codex', 'mcp', 'ai agents', 'cost tracking'],
+    },
+    {
         name: 'Ad Swipe File',
         description: 'Create top creatives: free access to 22,423+ proven ads!',
         categories: ['Marketing', 'AI', 'Inspiration'],
@@ -79,10 +95,27 @@ export const resources: Resource[] = [
     },
     {
         name: 'Adrian Twarog',
-        description: 'I',
+        description:
+            "I'm Adrian from Australia, a designer and developer who makes websites and apps using platforms like React Native. I'm hoping to share some of the things I've learnt over the years about my career and hobbies for coding, user interface and experience.",
         categories: ['Design', 'Programming', 'YouTube Channel'],
         url: 'https://www.youtube.com/channel/UCvM5YYWwfLwpcQgbRr68JLQ',
         keywords: ['HTML CSS JS UI UX WordPress React Native User Interface Design Website JavaScript Graphics design'],
+    },
+    {
+        name: 'AeroFTP',
+        description:
+            'Open-source multi-protocol file transfer client supporting 22 protocols (FTP, SFTP, WebDAV, S3, Google Drive, Dropbox and more), with encrypted vaults, a built-in terminal and an AI assistant. Built with Tauri, React and Rust.',
+        categories: ['Open Source', 'Tooling', 'Security'],
+        url: 'https://github.com/axpnet/aeroftp',
+        keywords: ['ftp', 'sftp', 'webdav', 's3', 'file transfer', 'cloud storage', 'encryption', 'tauri', 'rust'],
+    },
+    {
+        name: 'Agent Island',
+        description:
+            'Free, MIT-licensed native companion for Claude, Codex, Antigravity, Grok and Cursor, with local session status, alerts and provider usage views.',
+        categories: ['Open Source', 'Productivity', 'Tooling'],
+        url: 'https://agent-island.dev/',
+        keywords: ['claude code', 'codex', 'antigravity', 'grok', 'cursor', 'session monitoring', 'developer tools'],
     },
     {
         name: 'Agent Security',
@@ -92,8 +125,25 @@ export const resources: Resource[] = [
         keywords: ['data', 'ai security', 'agent security', 'llm security'],
     },
     {
+        name: 'agent-qa',
+        description:
+            'Self-improving QA agent for web and mobile apps with natural-language tests, run memory, UI-change adaptation, and regression detection before shipping.',
+        categories: ['AI', 'Testing', 'Tooling'],
+        url: 'https://github.com/vostride/agent-qa',
+        keywords: ['ai', 'testing', 'qa', 'web', 'mobile', 'regression testing', 'natural language tests'],
+    },
+    {
+        name: 'AgileHero',
+        description:
+            'Agile project management for software teams: boards, epics, roadmaps, retrospectives, whiteboards and wiki pages, plus a remote MCP server for coding agents.',
+        categories: ['Productivity', 'AI', 'Tooling'],
+        url: 'https://agilehero.io',
+        keywords: ['project management', 'agile', 'kanban', 'scrum', 'tasks tracking', 'mcp', 'ai agents'],
+    },
+    {
         name: 'Ahrefs',
-        description: 'You don',
+        description:
+            "You don't have to be an SEO pro to rank higher and get more traffic. Join Ahrefs – we're a powerful but easy to learn SEO toolset with a passionate community.",
         categories: ['SEO'],
         url: 'https://ahrefs.com/',
     },
@@ -112,18 +162,26 @@ export const resources: Resource[] = [
         keywords: ['ai', 'artificial intelligence', 'developer', 'ai agent', 'marketplace', 'store', 'news', 'blogs'],
     },
     {
-        name: 'AI Alternative',
-        description: 'Discover the best AI tools and their alternatives',
-        categories: ['AI', 'Tooling', 'Productivity'],
-        url: 'https://aialternative.co/',
-        keywords: ['ai directory', 'ai alternatives', 'ai tools directory', 'startup tools'],
-    },
-    {
         name: 'AI Best Tools',
         description: 'Discover the best AI tools in AIBest.tools',
         categories: ['AI', 'Tooling'],
         url: 'https://aibest.tools',
         keywords: ['ai', 'ai tools directory', 'developer tools', 'tools', 'ai tools', 'directory'],
+    },
+    {
+        name: 'AI Brochure Generator',
+        description: 'Turn prompts into brochures - fast, polished, and on-brand.',
+        categories: ['Design', 'AI', 'Marketing'],
+        url: 'https://venngage.com/ai-tools/brochure-generator',
+        keywords: ['ai brochure maker', 'ai design tool', 'custom brochure generator', 'prompt-to-brochure'],
+    },
+    {
+        name: 'AI Dev Jobs',
+        description:
+            'Free AI and machine learning job board with 7,600+ jobs from 480+ companies. Includes a free REST API and MCP server for programmatic access.',
+        categories: ['AI', 'Job', 'API Building'],
+        url: 'https://aidevboard.com',
+        keywords: ['ai', 'machine learning', 'jobs', 'api', 'mcp', 'developer', 'career'],
     },
     {
         name: 'AI Directories',
@@ -134,11 +192,12 @@ export const resources: Resource[] = [
         keywords: ['ai', 'artificial intelligence', 'promote', 'directory', 'traffic'],
     },
     {
-        name: 'AI Brochure Generator',
-        description: 'Turn prompts into brochures - fast, polished, and on-brand.',
-        categories: ['Design', 'AI', 'Marketing'],
-        url: 'https://venngage.com/ai-tools/brochure-generator',
-        keywords: ['ai brochure maker', 'ai design tool', 'custom brochure generator', 'prompt-to-brochure'],
+        name: 'AI for Database',
+        description:
+            'Connect to any database and interact with it in plain English. No SQL needed — get instant insights, build self-refreshing dashboards, and trigger automated workflows based on database changes.',
+        categories: ['AI', 'Database', 'Productivity'],
+        url: 'https://aifordatabase.com',
+        keywords: ['ai', 'database', 'sql', 'natural language', 'analytics', 'dashboard'],
     },
     {
         name: 'AI Jobs',
@@ -168,6 +227,13 @@ export const resources: Resource[] = [
         url: 'https://ai-text-humanizer.com/',
     },
     {
+        name: 'Aigazine',
+        description: 'The Go-To Source for AI Benchmarks, News, Research & Industry Insights',
+        categories: ['AI', 'Newsletter', 'Startup'],
+        url: 'https://aigazine.com',
+        keywords: ['ai benchmarks', 'ai news', 'ai analytics', 'research'],
+    },
+    {
         name: 'aijobs.net',
         description: 'Find jobs and talents in AI, Machine Learning, Data Science and Big Data.',
         categories: ['AI', 'Job'],
@@ -182,13 +248,6 @@ export const resources: Resource[] = [
             'jobs',
             'developer',
         ],
-    },
-    {
-        name: 'AI SEO Tools',
-        description: 'Discover the Best AI SEO Tools in One Place',
-        categories: ['Marketing', 'SEO', 'AI'],
-        url: 'https://www.ai-seo.tools',
-        keywords: ['automation', 'ai', 'marketing', 'aggregators'],
     },
     {
         name: 'Airtable',
@@ -206,18 +265,18 @@ export const resources: Resource[] = [
         keywords: ['AI', 'tools', 'directory'],
     },
     {
+        name: 'All SVG Icons',
+        description: 'Browse and download 250,000+ free SVG icons from 220 carefully curated icon libraries.',
+        categories: ['Icon'],
+        url: 'https://allsvgicons.com/',
+        keywords: ['icons', 'svg icons', 'open source icons'],
+    },
+    {
         name: 'ally.js',
         description:
             'JavaScript library to help modern web applications with accessibility concerns by making accessibility simpler.',
         categories: ['Accessibility', 'Library'],
         url: 'https://allyjs.io/',
-    },
-    {
-        name: 'Alteropen',
-        description:
-            'Alternative Directory to popular SaaS products (Free/ OpenSource or with Great Deals) for Developer, Indie',
-        categories: ['Marketing', 'SEO', 'Open Source'],
-        url: 'https://alteropen.com/',
     },
     {
         name: 'Angular DevTools',
@@ -249,6 +308,71 @@ export const resources: Resource[] = [
         url: 'https://anotherwrapper.com',
     },
     {
+        name: 'AntForms',
+        description: 'Unlimited free submissions + free analytics + integrations + AI + fastest support',
+        categories: ['Productivity', 'Website Builder', 'Tooling'],
+        url: 'https://antforms.com',
+        keywords: [
+            'form builder',
+            'online forms',
+            'survey',
+            'contact forms',
+            'lead generation',
+            'drag and drop',
+            'form templates',
+            'analytics',
+            'integrations',
+        ],
+    },
+    {
+        name: 'AnveVoice',
+        description:
+            'AI voice agent for websites that trains on your content, navigates pages, fills forms, and books appointments in 50+ languages with sub-700ms latency.',
+        categories: ['AI'],
+        url: 'https://anvevoice.app',
+        keywords: ['voice ai', 'ai agent', 'chatbot', 'voice assistant', 'website widget'],
+    },
+    {
+        name: 'AnyAPI',
+        description:
+            'Hundreds of scraping and data APIs behind one key and one normalized JSON schema, priced per request in USD with no subscription.',
+        categories: ['Scraping', 'Social Media', 'Tooling'],
+        url: 'https://getanyapi.com',
+        keywords: ['scraping', 'data api', 'serp', 'social media data', 'api marketplace', 'mcp'],
+    },
+    {
+        name: 'AnyGradient',
+        description:
+            'NextGen gradient generator with OKLCH interpolation, Display-P3 color support, customizable noise, and production-ready code exports',
+        categories: ['Design'],
+        url: 'https://anygradient.com/',
+        keywords: ['gradient', 'css', 'design tool', 'developer tool', 'background'],
+    },
+    {
+        name: 'ApexToWWW',
+        description:
+            'Free DNS apex/naked domain to www subdomain 301 redirect service. Automatic SSL, IPv6, HTTP/3. No signup needed — just add two DNS records.',
+        categories: ['Domain'],
+        url: 'https://www.apextowww.com/',
+        keywords: ['dns', 'domain', 'redirect', 'apex domain', 'naked domain', '301 redirect', 'www'],
+    },
+    {
+        name: 'ApexVerify',
+        description:
+            'Verify emails, phone numbers, and addresses with real-time accuracy. Keep your contact data clean, compliant, and reliable with our all-in-one suite.',
+        categories: ['Marketing'],
+        url: 'https://apexverify.com/',
+        keywords: [
+            'email verification',
+            'phone verification',
+            'data verification',
+            'email',
+            'telephony',
+            'contact',
+            'lead',
+        ],
+    },
+    {
         name: 'Apigee',
         description:
             'Apigee, part of Google Cloud, helps leading companies design, secure, and scale application programming interfaces (APIs). Try Apigee Edge for free.',
@@ -263,17 +387,23 @@ export const resources: Resource[] = [
         url: 'https://apiverve.com/',
     },
     {
-        name: 'App Icon Generator',
-        description: 'Create beautiful app icons for iOS and Android. Generate all required sizes with just one click.',
-        categories: ['Code Generator', 'Programming'],
-        url: 'https://launchyourapp.dev/tools/app-icon-generator',
-    },
-    {
         name: 'ApparenceKit',
         description:
-            'A flutter template to create iOS, Android and web app in days. Generate all the common boilerplate code and customize the design to fit your brand. ',
+            'A flutter template to create iOS, Android and web app in days. Generate all the common boilerplate code and customize the design to fit your brand.',
         categories: ['Template', 'Tooling', 'Programming'],
         url: 'https://apparencekit.dev/',
+    },
+    {
+        name: 'Appark',
+        description: 'Free app market analytics for growth and competition insights',
+        categories: ['Analytics', 'Marketing', 'SEO'],
+        url: 'https://appark.ai/en',
+        keywords: [
+            'app market research',
+            'mobile app market intelligence',
+            'mobile apps analytics',
+            'app store ranking',
+        ],
     },
     {
         name: 'AppCode',
@@ -284,9 +414,17 @@ export const resources: Resource[] = [
     },
     {
         name: 'AppMockUp',
-        description: 'Use AppMockUp, the world',
+        description:
+            "Use AppMockUp, the world's most powerful screenshot builder to create the most compelling screenshots for your app.",
         categories: ['Prototyping', 'Screenshot'],
         url: 'https://app-mockup.com/',
+    },
+    {
+        name: 'AppStore Tracker',
+        description: 'An open AppStore Explorer',
+        categories: ['Analytics', 'Marketing'],
+        url: 'https://appstoretracker.com/',
+        keywords: ['appstore explorer', 'mobile apps', 'app revenue data', 'app downloads'],
     },
     {
         name: 'Appwrite',
@@ -294,6 +432,14 @@ export const resources: Resource[] = [
             'Appwrite provides web and mobile developers with a set of easy-to-use and integrate REST APIs to manage their core backend needs.',
         categories: ['API Building'],
         url: 'https://appwrite.io/',
+    },
+    {
+        name: 'Apstal',
+        description:
+            'AI-first web analytics with session replay, heatmaps, and conversational AI queries. Free tier available.',
+        categories: ['Analytics', 'AI'],
+        url: 'https://apstal.com',
+        keywords: ['web analytics', 'session replay', 'heatmaps', 'ai analytics', 'privacy analytics'],
     },
     {
         name: 'Aptabase',
@@ -310,6 +456,14 @@ export const resources: Resource[] = [
         categories: ['Cloud Computing', 'Productivity'],
         url: 'https://aptakube.com',
         keywords: ['kubernetes'],
+    },
+    {
+        name: 'ArtboardLab',
+        description:
+            'Free browser-based tools that convert Adobe Illustrator .ai files to SVG, PNG or PDF and compress images. Files are processed locally, never uploaded.',
+        categories: ['Design', 'Image', 'Tooling'],
+        url: 'https://artboardlab.com',
+        keywords: ['illustrator', 'ai to svg', 'svg', 'image compression', 'webassembly', 'converter'],
     },
     {
         name: 'Artify',
@@ -346,23 +500,9 @@ export const resources: Resource[] = [
         keywords: ['marketing', 'tools', 'workflow automation', 'business'],
     },
     {
-        name: 'Avodocs',
-        description: 'Free legal documents for startups. Get your company',
-        categories: ['Legal'],
-        url: 'https://www.avodocs.com',
-        keywords: [
-            'legal',
-            'legal documents',
-            'legal templates',
-            'privacy policy',
-            'terms of service',
-            'terms and conditions',
-        ],
-    },
-    {
         name: 'Awesome a11y',
         description:
-            ':wheelchair: A curate list about A11Y. Contribute to brunopulis/awesome-a11y development by creating an account on GitHub.',
+            'A curate list about A11Y. Contribute to brunopulis/awesome-a11y development by creating an account on GitHub.',
         categories: ['Accessibility'],
         url: 'https://github.com/brunopulis/awesome-a11y',
     },
@@ -389,8 +529,8 @@ export const resources: Resource[] = [
     {
         name: 'AWS',
         description:
-            'Amazon Web Services offers reliable, scalable, and  inexpensive cloud computing services. Free to join, pay only for what you use.',
-        categories: ['Cloud Computing', 'Database', 'Hosting', 'Serverless', 'Storage'],
+            'Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.',
+        categories: ['Cloud Computing', 'Hosting', 'Serverless'],
         url: 'https://aws.amazon.com/',
     },
     {
@@ -419,7 +559,7 @@ export const resources: Resource[] = [
         name: 'Azure',
         description:
             'Invent with purpose, realise cost savings and make your organisation more efficient with Microsoft Azure’s open and flexible cloud computing platform.',
-        categories: ['Cloud Computing', 'Database', 'Hosting', 'Serverless', 'Storage'],
+        categories: ['Cloud Computing', 'Hosting', 'Serverless'],
         url: 'https://azure.microsoft.com/',
         keywords: ['Azuesss', 'Windows Azure', 'Cloud Service', 'Cloud Computing Companies'],
     },

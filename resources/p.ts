@@ -2,6 +2,21 @@ import { Resource } from 'types'
 
 export const resources: Resource[] = [
     {
+        name: 'PageGuard',
+        description:
+            'Free all-in-one website health scanner. Checks SEO, ADA/WCAG accessibility, Core Web Vitals performance, and best practices in one scan. Paid plans add automated monitoring and alerts.',
+        categories: ['SEO', 'Accessibility', 'Performance'],
+        url: 'https://pageguard.org',
+        keywords: [
+            'SEO checker',
+            'accessibility checker',
+            'ADA compliance',
+            'website health',
+            'WCAG',
+            'Core Web Vitals',
+        ],
+    },
+    {
         name: 'PageGym',
         description: 'Advanced page speed analysis and optimization tool.',
         categories: ['Performance'],
@@ -37,11 +52,35 @@ export const resources: Resource[] = [
         keywords: ['cro', 'conversion rate optimization', 'landing pages', 'cro audit'],
     },
     {
+        name: 'ParlayAPI',
+        description:
+            'Sports odds REST API for private research tools. Each user supplies their own API key. Free tier: 1,000 credits/month. No public data redistribution.',
+        categories: ['Programming', 'Tooling'],
+        url: 'https://parlay-api.com',
+        keywords: ['sports odds', 'REST API', 'Python', 'private research'],
+    },
+    {
         name: 'PassVult',
         description: 'Most private password manager',
         categories: ['Productivity', 'Security', 'Startup'],
         url: 'https://passvult.com',
         keywords: ['cybersecurity', 'password manager', 'privacy', 'loyalty card'],
+    },
+    {
+        name: 'PastAGI',
+        description:
+            'Practical AI engineering publication: LLM inference cost audits, serving math, eval methodology, and tool reviews with verifiable numbers.',
+        categories: ['Blog', 'AI'],
+        url: 'https://pastagi.com',
+        keywords: ['ai engineering', 'llm', 'inference cost', 'evals', 'tutorials'],
+    },
+    {
+        name: 'Patronus Protect',
+        description:
+            'Hosted API to detect prompt injection in text, public webpages and documents for AI agents and RAG pipelines. Free tier available.',
+        categories: ['AI', 'Security'],
+        url: 'https://api.patronus.studio',
+        keywords: ['prompt injection', 'agent security', 'RAG', 'API'],
     },
     {
         name: 'Patterninja',
@@ -72,6 +111,14 @@ export const resources: Resource[] = [
         categories: ['CMS'],
         url: 'https://payloadcms.com/',
         keywords: ['cms', 'headless', 'typescript', 'react', 'mongodb', 'express', 'graphql', 'rest'],
+    },
+    {
+        name: 'Payload Components',
+        description:
+            'An MIT registry and CLI that installs typed Payload CMS blocks into Payload v3 and Next.js projects with automated collection, renderer, type, and admin import-map wiring.',
+        categories: ['CMS', 'Programming', 'Tooling'],
+        url: 'https://www.payload-components.xyz/',
+        keywords: ['payload cms', 'next.js', 'typescript', 'shadcn', 'component registry', 'open source'],
     },
     {
         name: 'pCloudy',
@@ -153,6 +200,14 @@ export const resources: Resource[] = [
         url: 'https://www.jetbrains.com/phpstorm/',
     },
     {
+        name: 'PicPrepper',
+        description:
+            'Browser-based image preparation for web projects: compress, resize, and convert JPG, PNG, and WebP locally without uploading.',
+        categories: ['Image', 'Performance', 'Tooling'],
+        url: 'https://picprepper.com',
+        keywords: ['image compression', 'image resize', 'webp', 'frontend', 'browser-based'],
+    },
+    {
         name: 'Pictify',
         description: 'Pictify.io provides API to convert HTML into image',
         categories: ['Image', 'Programming'],
@@ -173,6 +228,24 @@ export const resources: Resource[] = [
         categories: ['Design', 'Marketing', 'Productivity'],
         url: 'https://pimpmysnap.com/',
         keywords: ['screenshot', 'social media', 'editor', 'content'],
+    },
+    {
+        name: 'PineGen AI',
+        description:
+            'PineGen AI is an AI-powered, no-code Pine Script generator for TradingView. Turn plain English into error-free strategies, backtest, and refine code easily.',
+        categories: ['Code Generator'],
+        url: 'https://www.pinegen.ai/us',
+        keywords: [
+            'Pine Script generator',
+            'TradingView',
+            'AI strategy builder',
+            'no-code trading',
+            'Pine Script AI',
+            'backtesting',
+            'TradingView bot',
+            'Pine Script v6',
+            'algorithmic trading',
+        ],
     },
     {
         name: 'Pingdom',
@@ -202,6 +275,29 @@ export const resources: Resource[] = [
         keywords: ['icons', 'line icons', 'vector icons', 'iOS icons', 'Android icons'],
     },
     {
+        name: 'PixelVault',
+        description:
+            'Agent-first image hosting on the Cloudflare edge. Uploads return a raw image URL that AI coding agents can fetch, plus on-the-fly transforms. Free tier.',
+        categories: ['Image', 'Hosting', 'AI'],
+        url: 'https://pixelvault.dev',
+        keywords: ['image hosting', 'AI agents', 'screenshot hosting', 'image CDN', 'image transforms'],
+    },
+    {
+        name: 'Planet Cert',
+        description:
+            'PlanetCert offers professional certification training and exam preparation. Get certified in IT, Project Management, and more with our comprehensive courses.',
+        categories: ['Writing'],
+        url: 'https://planetcert.com/',
+        keywords: [
+            'Cisco 200-301',
+            'AZ-900 practice test',
+            'AWS cloud practitioner',
+            'IT certifications',
+            'AI exam prep',
+            'network associate',
+        ],
+    },
+    {
         name: 'Plausible',
         description:
             'Plausible is a lightweight and open-source web analytics tool. Your website data is 100% yours and the privacy of your visitors is respected.',
@@ -220,12 +316,6 @@ export const resources: Resource[] = [
         description: 'Make your app dynamic with AI',
         categories: ['Marketing', 'Programming', 'AI'],
         url: 'https://www.plotline.so/',
-    },
-    {
-        name: 'Plottable',
-        description: 'Flexible, interactive, performant charts for the web made easy.',
-        categories: ['Library', 'Programming'],
-        url: 'http://plottablejs.org/',
     },
     {
         name: 'Pluralsight',
@@ -256,6 +346,13 @@ export const resources: Resource[] = [
         url: 'https://www.postman.com/',
     },
     {
+        name: 'PostPeer',
+        description: 'Social media posting API for cross-platform posting and scheduling',
+        categories: ['Social Media', 'Programming', 'Marketing'],
+        url: 'https://www.postpeer.dev/',
+        keywords: ['social media api', 'developer tools', 'api', 'social media automation'],
+    },
+    {
         name: 'Powerdrill',
         description:
             'An AI data analysis tool that supports auto-generation of data visuals, data reports, and PPT from your data',
@@ -278,17 +375,42 @@ export const resources: Resource[] = [
         keywords: ['cv', 'LaTeX'],
     },
     {
+        name: 'PR Radar',
+        description:
+            'Free, open-source browser extension for a unified PR dashboard across GitHub, GitLab, and Bitbucket. CI status, review tracking, notifications, and keyboard shortcuts.',
+        categories: ['Extension', 'Open Source', 'Tooling'],
+        url: 'https://github.com/deployhq/pr-radar',
+        keywords: ['pull requests', 'code review', 'CI', 'GitHub', 'GitLab', 'Bitbucket'],
+    },
+    {
+        name: 'PracHub',
+        description:
+            'Practice 8,500+ real tech-interview questions from 400+ top companies — coding, SQL, ML, and system design — in an in-browser console with AI-assisted hints.',
+        categories: ['Interview', 'Learn', 'Code Challenge'],
+        url: 'https://prachub.com',
+        keywords: ['interview', 'coding interview', 'leetcode alternative', 'system design', 'sql', 'machine learning'],
+    },
+    {
         name: 'Prime',
         description: 'Ultimate UI Framework.',
         categories: ['UI'],
         url: 'https://www.primefaces.org/',
     },
     {
-        name: 'Privacyboard',
-        description: 'Privacyboard helps you comply with GDPR in minutes so you can focus on what',
-        categories: ['Legal'],
-        url: 'https://www.privacyboard.co',
-        keywords: ['privacy', 'gdpr', 'compliance'],
+        name: 'PrintSocket',
+        description:
+            'Send PDFs, ZPL labels and ESC/POS receipts to printers you control, from any language, over a REST API.',
+        categories: ['API Building'],
+        url: 'https://www.printsocket.com',
+        keywords: ['printing', 'cloud printing', 'escpos', 'zpl', 'receipt printer', 'label printer', 'rest api'],
+    },
+    {
+        name: 'Prismix',
+        description:
+            'Real-time status for 75+ AI services, curated news from 70+ sources, and a directory of 500+ MCP servers. Free REST API for status data.',
+        categories: ['AI', 'Tooling'],
+        url: 'https://prismix.dev',
+        keywords: ['ai status', 'mcp servers', 'ai news', 'uptime monitoring', 'openai status', 'anthropic status'],
     },
     {
         name: 'Product Hunt',
@@ -296,13 +418,6 @@ export const resources: Resource[] = [
             'Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone',
         categories: ['Marketing', 'Startup'],
         url: 'https://www.producthunt.com/',
-    },
-    {
-        name: 'ProductiveHub',
-        description:
-            'Discover top apps and websites on Productive Hub that enhance your productivity and help you beat procrastination, streamlining your journey to peak productivity.',
-        categories: ['Productivity', 'Blog'],
-        url: 'https://www.productive-hub.com/',
     },
     {
         name: 'Programiz',
@@ -313,7 +428,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Programming podcast',
-        description: 'The ',
+        description:
+            'The "Programming" podcast with Minko Gechev is a weekly show that aims to make us better software engineers! With each new episode, you\'ll get exposed to a new idea in a brief and accessible way',
         categories: ['Podcast', 'Programming'],
         url: 'https://podcast.mgechev.com/',
     },
@@ -351,19 +467,19 @@ export const resources: Resource[] = [
         keywords: ['community', 'social network', 'social', 'prompt generator'],
     },
     {
+        name: 'PromptPlanner',
+        description: 'Prompt manager for Mac to organize, schedule, and copy reusable AI prompts',
+        categories: ['Productivity', 'AI', 'Library'],
+        url: 'https://promptplanner.app/',
+        keywords: ['prompt library', 'prompt manager', 'prompt management', 'prompt engineering'],
+    },
+    {
         name: 'Proxed.AI',
         description:
             'Proxed.AI is a secure API proxy for iOS apps that protects AI API keys, prevents unauthorized access, and verifies real devices using Apple’s DeviceCheck.',
         categories: ['AI', 'Security', 'Authentication'],
         url: 'https://proxed.ai/',
         keywords: ['ai api security', 'ios api protection', 'secure ai integration', 'api key management'],
-    },
-    {
-        name: 'Proxies API',
-        description:
-            'Get HTML from any page with a simple API call. We handle proxy rotation, browser identities, automatic retries, CAPTCHAs, JavaScript rendering and much more.',
-        categories: ['Scraping'],
-        url: 'https://proxiesapi.com',
     },
     {
         name: 'Pttrns',
@@ -438,13 +554,6 @@ export const resources: Resource[] = [
         url: 'https://www.jetbrains.com/pycharm/',
     },
     {
-        name: 'Python Developer Jobs',
-        description:
-            'Find specific Python Developer Jobs, including Remote Jobs. You are looking for Python Developers? Submit your position for free.',
-        categories: ['Job'],
-        url: 'https://pythonjob.xyz/',
-    },
-    {
         name: 'Python For Everybody',
         description:
             'Set of free materials, lectures, book and assignments to help students learn how to program in Python 3 (2016)',
@@ -462,5 +571,13 @@ export const resources: Resource[] = [
         description: 'Online Python tools: Linter, formatter, regex tester, converter, obfuscator, and mock API.',
         categories: ['Programming', 'Tooling'],
         url: 'https://pythonium.net/',
+    },
+    {
+        name: 'Pythonlings',
+        description:
+            'Learn Python by fixing small programs in a terminal-based, Rustlings-style exercise suite with automated checks and guided progression.',
+        categories: ['Learn', 'Programming', 'Code Challenge'],
+        url: 'https://pythonlings.abhik.ai/',
+        keywords: ['python', 'exercises', 'terminal', 'tui'],
     },
 ]

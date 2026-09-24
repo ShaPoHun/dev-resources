@@ -96,6 +96,14 @@ export const resources: Resource[] = [
         url: 'https://weworkremotely.com/',
     },
     {
+        name: 'WealthVille',
+        description:
+            'Scores DeFi liquidity pools so you can tell whether one is worth providing liquidity to. Covers Solana and EVM pools, returning a 0-100 score and an Enter/Hold/Exit verdict, with a public track record that includes the misses. Free keyless REST API and an MCP server for AI agents.',
+        categories: ['Web3'],
+        url: 'https://wealthville.net',
+        keywords: ['DeFi', 'liquidity pools', 'Solana', 'EVM', 'API', 'MCP'],
+    },
+    {
         name: 'Web Code Tools',
         description:
             'Web Code Tools is a suite of code generators for HTML, CSS, Meta Tags, Open Graph, Structured Data, Twitter Cards and more.',
@@ -119,7 +127,7 @@ export const resources: Resource[] = [
         name: 'Web Developer Checklist',
         description: 'Analyses any web page for violations of best practices.',
         categories: ['Browser', 'Extension'],
-        url: 'https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp?hl=en',
+        url: 'https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp',
     },
     {
         name: 'Webacus',
@@ -151,6 +159,14 @@ export const resources: Resource[] = [
         url: 'https://webframe.xyz/',
     },
     {
+        name: 'Webinspoo',
+        description:
+            'A curated SaaS web design inspiration gallery featuring the best landing pages, UI patterns, and product pages for designers, developers, and founders.',
+        categories: ['Design', 'Inspiration', 'UI'],
+        url: 'https://webinspoo.com',
+        keywords: ['web design inspiration', 'website gallery', 'landing page ideas', 'UI inspiration'],
+    },
+    {
         name: 'WebPagetest',
         description:
             'Run a free website speed test from around the globe using real browsers at consumer connection speeds with detailed optimization recommendations.',
@@ -167,7 +183,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Website Authority Checker',
-        description: 'Free tool to check the ',
+        description:
+            'Free tool to check the "authority" of any website based on the quality and quantity of its external backlinks.',
         categories: ['SEO'],
         url: 'https://ahrefs.com/website-authority-checker',
     },
@@ -217,7 +234,22 @@ export const resources: Resource[] = [
         name: 'WhatFont',
         description: 'The easiest way to identify fonts on web pages.',
         categories: ['Browser', 'Extension'],
-        url: 'https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en',
+        url: 'https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm',
+    },
+    {
+        name: 'wheretosubmit',
+        description:
+            'A curated directory of 500+ launch platforms and backlink sites, tagged with pricing, DR, traffic, and first-hand submission tips.track what you submitted',
+        categories: ['SEO'],
+        url: 'https://wheretosubmit.org',
+        keywords: ['seo'],
+    },
+    {
+        name: 'Widget.video',
+        description: 'Embed interactive video widgets to your landing page',
+        categories: ['Video', 'Marketing', 'Analytics'],
+        url: 'https://widget.video/',
+        keywords: ['saas', 'marketing', 'growth', 'sales'],
     },
     {
         name: 'Windframe',
@@ -228,13 +260,6 @@ export const resources: Resource[] = [
         keywords: ['website builder', 'tailwind css builder', 'drag and drop builder'],
     },
     {
-        name: 'Widget.video',
-        description: 'Embed interactive video widgets to your landing page',
-        categories: ['Video', 'Marketing', 'Analytics'],
-        url: 'https://widget.video/',
-        keywords: ['saas', 'marketing', 'growth', 'sales'],
-    },
-    {
         name: 'Wix',
         description:
             'Create a free website with Wix.com. Choose a stunning template and customize anything with the Wix website builder—no coding skills needed. Create yours today!',
@@ -242,19 +267,18 @@ export const resources: Resource[] = [
         url: 'https://www.wix.com/',
     },
     {
-        name: 'WLSpy',
-        description:
-            'WLSpy helps users discover winning products by analyzing market trends and competitor strategies.',
-        categories: ['Marketing', 'AI'],
-        url: 'https://wlspy.com',
-        keywords: ['Product Research', 'Market Analysis', 'Competitor Monitoring'],
-    },
-    {
         name: 'WordPress',
         description:
             'Create a free website or build a blog with ease on WordPress.com. Dozens of free, customizable, mobile-ready designs and themes. Free hosting and support.',
         categories: ['Website Builder'],
         url: 'https://wordpress.com/',
+    },
+    {
+        name: 'Work Type Focus',
+        description: 'Classify and visualize Jira work to stay focused and foster innovation',
+        categories: ['Productivity', 'Analytics', 'Tooling'],
+        url: 'https://worktypefocus.com/',
+        keywords: ['agile', 'sprint planning', 'work classification', 'team focus'],
     },
     {
         name: 'Working Nomads',
@@ -271,13 +295,6 @@ export const resources: Resource[] = [
             'virtual',
             'working nomads',
         ],
-    },
-    {
-        name: 'Work Type Focus',
-        description: 'Classify and visualize Jira work to stay focused and foster innovation',
-        categories: ['Productivity', 'Analytics', 'Tooling'],
-        url: 'https://worktypefocus.com/',
-        keywords: ['agile', 'sprint planning', 'work classification', 'team focus'],
     },
     {
         name: 'WP Foundry',

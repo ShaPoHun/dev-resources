@@ -3,7 +3,8 @@ import { Resource } from 'types'
 export const resources: Resource[] = [
     {
         name: 'Backlink Checker',
-        description: 'With the world',
+        description:
+            "With the world's biggest index of live backlinks (over 15 trillion), Ahrefs Backlink Checker will show you the most complete backlink profile for any website.",
         categories: ['SEO'],
         url: 'https://ahrefs.com/backlink-checker',
     },
@@ -44,6 +45,28 @@ export const resources: Resource[] = [
         ],
     },
     {
+        name: 'Barra',
+        description: 'Website Toolbar Built to Improve Conversion rate by simplifying UX',
+        categories: ['Marketing', 'UX', 'Analytics'],
+        url: 'https://www.barra.ai/',
+        keywords: ['navigation bar', 'action bar', 'offer bar', 'floating action bar'],
+    },
+    {
+        name: 'Base Converter',
+        description:
+            'Convert numbers between binary, octal, decimal and hexadecimal instantly, with input validation and prefix support. 100% client-side, no signup required.',
+        categories: ['Programming', 'Tooling'],
+        url: 'https://nutilz.com/base-converter',
+        keywords: ['base converter', 'binary to decimal', 'hex converter', 'octal converter', 'number base conversion'],
+    },
+    {
+        name: 'Bazzly',
+        description: 'Get Customers From Reddit on Autopilot',
+        categories: ['Marketing', 'AI', 'Social Media'],
+        url: 'https://www.bazzly.ai/',
+        keywords: ['reddit', 'marketing', 'lead generation', 'sales'],
+    },
+    {
         name: 'BCMS',
         description:
             'BCMS, a headless CMS provides flexible content modeling for creative projects in Next.js, Gatsby.js, and Nuxt.js.',
@@ -73,7 +96,7 @@ export const resources: Resource[] = [
     },
     {
         name: 'Behance',
-        description: 'Behance is the world',
+        description: "Behance is the world's largest creative network for showcasing and discovering creative work.",
         categories: ['UI', 'Inspiration'],
         url: 'https://www.behance.net/',
         keywords: [
@@ -94,7 +117,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Ben Awad',
-        description: 'I',
+        description:
+            "I'm a software developer who makes videos about React, React Native, GraphQL, Typescript, Node.js, PostgreSQL, Python, and all things coding.",
         categories: ['Programming', 'YouTube Channel'],
         url: 'https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw',
         keywords: ['react graphql typescript'],
@@ -136,17 +160,9 @@ export const resources: Resource[] = [
         keywords: ['programming web development javascript react node.js'],
     },
     {
-        name: 'Big Heads',
-        description:
-            'Combine expressions, clothing, hair styles and colors into billions of different unique characters.',
-        categories: ['Illustration'],
-        url: 'https://bigheads.io/',
-    },
-    {
         name: 'BigDevSoon',
-        description:
-            'Build real-world projects, daily challenges, and solve practice problems. Maximize your learning potential.',
-        categories: ['Learn', 'Programming'],
+        description: 'Build real-world projects with Figma designs and an AI copilot in a zero-config browser IDE.',
+        categories: ['Code Challenge'],
         url: 'https://bigdevsoon.me',
         keywords: ['Figma', 'AI', 'Gamified Learning', 'Code', 'Projects', 'Insights', 'Learn', 'Programming'],
     },
@@ -179,7 +195,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'BilingualJobs.io',
-        description: 'The world',
+        description:
+            "The world's first bilingual job board. Find bilingual talent faster, or stand out as a bilingual.",
         categories: ['Job'],
         url: 'https://bilingualjobs.io',
         keywords: [
@@ -341,14 +358,14 @@ export const resources: Resource[] = [
         name: 'Bootstrapped Web',
         description: 'The podcast for founders bootstrapping their startups online.',
         categories: ['Podcast', 'Startup'],
-        url: 'http://bootstrappedweb.com/',
+        url: 'https://bootstrappedweb.com/',
     },
     {
         name: 'BootstrapTaste',
         description:
             '100+ Best Bootstrap templates and HTML Website Templates collections to build your website or app in 2020.',
         categories: ['Template'],
-        url: 'http://bootstraptaste.com/',
+        url: 'https://bootstraptaste.com/',
         keywords: [
             'Bootstrap themes',
             'Bootstrap templates',
@@ -392,7 +409,14 @@ export const resources: Resource[] = [
         description:
             'Brackets is a lightweight, yet powerful, modern text editor. We blend visual tools into the editor so you get the right amount of help when you want it. With new features and extensions released every 3-4 weeks, it',
         categories: ['Editor', 'Extension'],
-        url: 'http://brackets.io/',
+        url: 'https://brackets.io/',
+    },
+    {
+        name: 'BragDoc',
+        description: 'CLI tool that extracts achievements from git commits for performance reviews',
+        categories: ['Productivity', 'Terminal', 'Tooling'],
+        url: 'https://www.bragdoc.ai/',
+        keywords: ['git', 'cli', 'performance review', 'achievements', 'ai'],
     },
     {
         name: 'Brainboard',
@@ -439,22 +463,6 @@ export const resources: Resource[] = [
         url: 'https://www.browserstack.com/',
     },
     {
-        name: 'BuddAIr',
-        description: 'Unlock your AI companion now',
-        categories: ['AI', 'Productivity'],
-        url: 'https://buddair.com/',
-        keywords: [
-            'AI companion',
-            'virtual buddy',
-            'AI tools navigation',
-            'emotional support AI',
-            'find AI friend',
-            'best AI companion apps',
-            'personalized AI interactions',
-            'BuddAIr',
-        ],
-    },
-    {
         name: 'Build you SaaS',
         description:
             'Can you bootstrap a profitable startup in 2021? Thousands of entrepreneurs, developers, designers, and product people have tried to launch their own web apps. But with so many venture-backed startups now, is it still possible? Follow Jon and Justin as they build their podcasting SaaS, Transistor.fm.',
@@ -481,6 +489,13 @@ export const resources: Resource[] = [
             'build management',
             'binaries',
         ],
+    },
+    {
+        name: 'BulkPicTools',
+        url: 'https://bulkpictools.com',
+        description:
+            'Free browser-based bulk image processor. Compress to exact file sizes, convert HEIC/WebP/AVIF/PNG/JPG, resize, crop, watermark 1,000+ images at once. No upload, no account, works offline.',
+        categories: ['Image', 'Productivity'],
     },
     {
         name: 'Bulma',

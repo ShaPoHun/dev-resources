@@ -16,11 +16,12 @@ export const resources: Resource[] = [
         keywords: ['auth', 'authentication', 'passwordless'],
     },
     {
-        name: 'MagicBox.tools',
-        description: 'Best AI Tools Explore 2024 | Magicbox.Tools AI Tools Directory',
-        categories: ['AI', 'Tooling'],
-        url: 'https://magicbox.tools',
-        keywords: ['ai tools', 'ai tools navigation', 'ai tools directory'],
+        name: 'Magic Eraser',
+        description:
+            'AI photo editing platform for removing objects/backgrounds, enhancing images, expanding borders, applying filters, and generating visuals.',
+        categories: ['Image'],
+        url: 'https://magiceraser.live/',
+        keywords: ['AI', 'photo editing', 'image editing', 'background remover'],
     },
     {
         name: 'Magic Potion',
@@ -34,6 +35,13 @@ export const resources: Resource[] = [
             'visual prompt builder',
             'llm prompt design',
         ],
+    },
+    {
+        name: 'MagicBox.tools',
+        description: 'Best AI Tools Explore 2024 | Magicbox.Tools AI Tools Directory',
+        categories: ['AI', 'Tooling'],
+        url: 'https://magicbox.tools',
+        keywords: ['ai tools', 'ai tools navigation', 'ai tools directory'],
     },
     {
         name: 'Mailchimp',
@@ -51,9 +59,17 @@ export const resources: Resource[] = [
     {
         name: 'Mailgun',
         description:
-            'Powerful Transactional Email APIs that enable you to send, receive, and track emails, built with developers in mind. ',
+            'Powerful Transactional Email APIs that enable you to send, receive, and track emails, built with developers in mind.',
         categories: ['Email', 'Marketing'],
         url: 'https://www.mailgun.com/',
+    },
+    {
+        name: 'MailKite SaaS Starter',
+        description:
+            'MIT-licensed Next.js SaaS starter: self-contained auth (OAuth + email/password, no auth vendor), Stripe subscriptions, teams, Postgres/Drizzle, dark-first UI.',
+        categories: ['Template', 'Open Source', 'Startup'],
+        url: 'https://github.com/mailkite/saas-startup',
+        keywords: ['nextjs', 'saas', 'boilerplate', 'starter kit', 'stripe', 'drizzle', 'authentication', 'typescript'],
     },
     {
         name: 'Majestic',
@@ -64,8 +80,7 @@ export const resources: Resource[] = [
     },
     {
         name: 'MAKE: Bootstrapper',
-        description:
-            'Learn to bootstrap profitable startups the indie way — export const resources: Resource[] = [4.99.',
+        description: 'Learn to bootstrap profitable startups the indie way.',
         categories: ['Book', 'Startup'],
         url: 'https://makebook.io/',
     },
@@ -100,9 +115,17 @@ export const resources: Resource[] = [
     },
     {
         name: 'Markdown Guide',
-        description: ' A free and open-source reference guide that explains how to use Markdown.',
+        description: 'A free and open-source reference guide that explains how to use Markdown.',
         categories: ['Cheatsheet'],
         url: 'https://markdownguide.org',
+    },
+    {
+        name: 'Markdown Tools Online',
+        description:
+            'Free online document converter. Convert Markdown to PDF, HTML to Markdown, and more. No signup required, no data stored.',
+        categories: ['Tooling'],
+        url: 'https://markdowntoolsonline.com',
+        keywords: ['markdown to pdf', 'markdown editor'],
     },
     {
         name: 'Marketing Auditor',
@@ -113,10 +136,39 @@ export const resources: Resource[] = [
         keywords: ['marketing', 'audit', 'checklist', 'automation', 'seo', 'google', 'analytics'],
     },
     {
+        name: 'Markleyo',
+        description:
+            'Markleyo helps businesses automate customer support, capture leads, and engage customers with AI chatbots across websites and messaging channels.',
+        categories: ['AI'],
+        url: 'https://markleyo.com/',
+        keywords: [
+            'AI chatbot',
+            'customer support',
+            'lead generation',
+            'business automation',
+            'conversational AI',
+            'live chat',
+            'AI agents',
+            'SaaS',
+            'WhatsApp',
+            'ecommerce',
+            'chatbot builder',
+            'productivity',
+        ],
+    },
+    {
         name: 'Marko Denic',
         description: 'Web Developer, Public speaker, IT trainer and consultant.',
         categories: ['Personal Website'],
         url: 'https://markodenic.com/',
+    },
+    {
+        name: 'Markstream',
+        description:
+            'Streaming Markdown renderers for AI chat interfaces across Vue, React, Svelte, Angular, Nuxt, and Next.js, with diagrams, math, code, and safe HTML.',
+        categories: ['Library', 'Open Source', 'UI'],
+        url: 'https://markstream.simonhe.me/',
+        keywords: ['streaming markdown', 'ai chat', 'frontend', 'vue', 'react', 'svelte', 'angular'],
     },
     {
         name: 'Mastery Games',
@@ -131,12 +183,6 @@ export const resources: Resource[] = [
             'Build beautiful, usable products faster. Material Design is an adaptable system—backed by open-source code—that helps teams build high quality digital experiences.',
         categories: ['Library', 'Programming', 'UI'],
         url: 'https://material.io/',
-    },
-    {
-        name: 'Material Design',
-        description: 'Get Material Icons.',
-        categories: ['Icon'],
-        url: 'https://material.io/resources/icons',
     },
     {
         name: 'Material Design Palette',
@@ -182,11 +228,11 @@ export const resources: Resource[] = [
         description:
             'Medium is an open platform where readers find dynamic thinking, and where expert and undiscovered voices can share their writing on any topic.',
         categories: ['Blog', 'Writing'],
-        url: 'http://medium.com/',
+        url: 'https://medium.com/',
     },
     {
         name: 'MeetMoji',
-        description: 'Live Polls for Google Slides with an AI Assistant ',
+        description: 'Live Polls for Google Slides with an AI Assistant',
         categories: ['AI', 'Productivity', 'Writing'],
         url: 'https://meetmoji.com',
     },
@@ -251,6 +297,14 @@ export const resources: Resource[] = [
         keywords: ['minimal', 'design', 'ui', 'inspiration'],
     },
     {
+        name: 'Mirage Cloud IA',
+        description:
+            'Mirage Cloud is an AI platform with 12 specialised agents that automate accounting, HR, finance and sales for French SMEs.',
+        categories: ['AI'],
+        url: 'https://mirage-cloud.com',
+        keywords: ['AI agents for SME', 'French AI SaaS', 'AI CFO tool'],
+    },
+    {
         name: 'Miruni',
         description:
             'Miruni is a visual feedback and task management tool designed for webmasters, developers, and agencies managing websites across many platforms.',
@@ -270,35 +324,20 @@ export const resources: Resource[] = [
         description:
             'Check out the hand-picked collection of latest mobile design patterns from apps that reflect the best in design.',
         categories: ['Design', 'Inspiration', 'UI'],
-        url: 'https://mobbin.design/',
+        url: 'https://mobbin.com/',
         keywords: [
             'apps',
             'mobbin',
             'ios',
-            'ios ui inspiration',
-            'ios11',
             'iphone',
-            'iphone X',
             'ui',
             'design',
-            'retina',
             'screenshots',
             'inspiration',
             'mobile',
             'ipad',
             'android',
-            'apple watch',
-            'visual design',
             'patterns',
-            'resources',
-            'framerjs',
-            'swift',
-            'sketch',
-            'framer',
-            'invision',
-            'photoshop',
-            'xcode',
-            'resources',
         ],
     },
     {
@@ -315,8 +354,8 @@ export const resources: Resource[] = [
         url: 'https://mochajs.org/',
     },
     {
-        name: 'Mocha',
-        description: 'AI app builder',
+        name: 'Mocha - AI app builder',
+        description: 'Create beautiful websites with words, not code.',
         categories: ['AI', 'Website Builder', 'Productivity'],
         url: 'https://getmocha.com',
         keywords: ['ai app builder', 'ai website builder', 'no code', 'website builder', 'vibe coding'],
@@ -391,17 +430,12 @@ export const resources: Resource[] = [
         url: 'https://morrisjs.github.io/morris.js/',
     },
     {
-        name: 'MuckBrass',
-        description: 'Find & Validate Startup Ideas using AI',
-        categories: ['SEO', 'Productivity', 'Startup'],
-        url: 'https://www.muckbrass.com',
-        keywords: ['data', 'research', 'startupidea', 'idea', 'ai'],
-    },
-    {
-        name: 'MyChatbots AI',
-        description: 'A platform for easily creating, training, and chatting with AI chatbots using your own data',
-        categories: ['AI', 'Productivity'],
-        url: 'https://mychatbots.ai',
+        name: 'Motomarks',
+        description:
+            'Image CDN for car manufacturer logos. One URL for badge, wordmark, or full logo, so app builders stop shipping a private asset folder.',
+        categories: ['CDN', 'Logo', 'Image'],
+        url: 'https://motomarks.io',
+        keywords: ['automotive', 'car', 'manufacturer', 'logo', 'cdn'],
     },
     {
         name: 'MyPerfectResume',

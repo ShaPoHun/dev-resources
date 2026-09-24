@@ -4,7 +4,7 @@ export const resources: Resource[] = [
     {
         name: 'F5Bot',
         description:
-            'F5Bot is a free service that emails you when your selected keywords are mentioned on Reddit, Hacker News, or Lobsters. Use it to monitor your brand, your projects, or just topics that you',
+            "F5Bot is a free service that emails you when your selected keywords are mentioned on Reddit, Hacker News, or Lobsters. Use it to monitor your brand, your projects, or just topics that you're interested in.",
         categories: ['Productivity', 'Tooling'],
         url: 'https://f5bot.com/',
     },
@@ -13,20 +13,13 @@ export const resources: Resource[] = [
         description: 'Scan contracts & find gotchas before signing',
         categories: ['Legal', 'Productivity', 'AI'],
         url: 'https://fairpact.actualization.ai',
-        keywords: ['legal', 'contracts', 'artificial intelligence​', 'startup tools'],
+        keywords: ['legal', 'contracts', 'artificial intelligence', 'startup tools'],
     },
     {
         name: 'Famewall',
         description: 'Collect and add testimonials to your website.',
         categories: ['Marketing'],
         url: 'https://famewall.io/',
-    },
-    {
-        name: 'Fast Articles AI',
-        description:
-            'Fast Articles AI is an advanced AI writing tool for SEO. Generate perfect SEO articles and blog posts in seconds.',
-        categories: ['Marketing', 'SEO', 'Writing'],
-        url: 'https://fastarticles.ai/',
     },
     {
         name: 'Fathom',
@@ -41,6 +34,14 @@ export const resources: Resource[] = [
             'Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.',
         categories: ['Icon'],
         url: 'https://feathericons.com/',
+    },
+    {
+        name: 'Feedframer',
+        description:
+            'Instagram feed API that handles OAuth and automatic token refresh, serving posts as JSON, GraphQL, or RSS. Free tier available.',
+        categories: ['API Building', 'Social Media'],
+        url: 'https://feedframer.com',
+        keywords: ['instagram', 'api', 'feed', 'rss', 'json', 'graphql'],
     },
     {
         name: 'Figma',
@@ -81,7 +82,7 @@ export const resources: Resource[] = [
         name: 'Firebase',
         description:
             'Firebase is Google’s mobile platform that helps you quickly develop high-quality apps and grow your business.',
-        categories: ['Authentication', 'Database', 'Hosting', 'Serverless'],
+        categories: ['Authentication', 'Database', 'Serverless'],
         url: 'https://firebase.google.com/',
     },
     {
@@ -166,17 +167,10 @@ export const resources: Resource[] = [
         url: 'https://codingfantasy.com/games/flexboxadventure',
     },
     {
-        name: 'Flexbox Defense',
-        description:
-            'Your job is to stop the incoming enemies from getting past your defenses. Unlike other tower defense games, you must position your towers using CSS!',
-        categories: ['Learn', 'Programming'],
-        url: 'http://www.flexboxdefense.com/',
-    },
-    {
         name: 'Flexbox Froggy',
         description: 'A game for learning CSS flexbox.',
         categories: ['Learn', 'Programming'],
-        url: 'http://flexboxfroggy.com/',
+        url: 'https://flexboxfroggy.com/',
     },
     {
         name: 'FlexJobs',
@@ -196,12 +190,27 @@ export const resources: Resource[] = [
         ],
     },
     {
+        name: 'flow-chart.io',
+        description:
+            'AI diagram generator that produces fully editable C4 architecture, BPMN, cloud architecture, and ERD diagrams as a live scene graph. Every node, connector, and label stays editable after generation.',
+        categories: ['AI', 'Design'],
+        url: 'https://flow-chart.io',
+    },
+    {
         name: 'Flowbite',
         description:
             'Get started with an open-source library of over 600+ UI components, sections, and pages built with the utility classes from Tailwind CSS and designed in Figma.',
         categories: ['Icon', 'Library', 'UI'],
         url: 'https://flowbite.com/',
         keywords: ['tailwind', 'ui components', 'ui kits', 'icon'],
+    },
+    {
+        name: 'FluentEDI',
+        description:
+            'Deterministic tools for AI agents over HTTP and MCP, with no API key or signup. Parse, generate and validate X12 EDI (850, 856, 810, 997), compute GS1 and IBAN check digits, do timezone and delivery-window arithmetic, resolve cron schedules, repair malformed JSON with the line and column where it broke, verify Ed25519 signatures, and scan text for leaked credentials.',
+        categories: ['AI', 'Tooling', 'Programming'],
+        url: 'https://fluentedi.com',
+        keywords: ['edi', 'x12', 'ai agents', 'mcp', 'api', 'developer tools'],
     },
     {
         name: 'Fluid UI',
@@ -277,9 +286,9 @@ export const resources: Resource[] = [
             'handwriting fonts',
             'calligraphy free fonts',
             'designer fonts',
-            'serif  fonts',
-            'sans serif  fonts',
-            'grunge  fonts',
+            'serif fonts',
+            'sans serif fonts',
+            'grunge fonts',
             'script fonts',
             'typewriter fonts',
         ],
@@ -290,6 +299,27 @@ export const resources: Resource[] = [
         categories: ['Icon'],
         url: 'https://fontello.com',
         keywords: ['icons', 'fonts'],
+    },
+    {
+        name: 'FontGlyph',
+        description:
+            'Create custom web icon fonts from SVG and PNG files with color and monochrome icons, privacy-first processing and CDN publishing.',
+        categories: ['Icon', 'Font', 'Tooling'],
+        url: 'https://fontglyph.com',
+        keywords: [
+            'font',
+            'icon',
+            'tooling',
+            'design',
+            'CDN',
+            'SVG',
+            'WOFF2',
+            'webfont',
+            'icon font',
+            'font generator',
+            'color glyphs',
+            'custom icons',
+        ],
     },
     {
         name: 'Fontjoy',
@@ -354,10 +384,25 @@ export const resources: Resource[] = [
         url: 'https://fontspark.com/',
     },
     {
+        name: 'Format JSON Online',
+        description: 'A Complete Toolkit for JSON & Data Processing.',
+        categories: ['Productivity', 'Tooling'],
+        url: 'https://formatjsononline.com/',
+        keywords: ['json'],
+    },
+    {
         name: 'Formcn.dev',
         description: 'Easily build single- and multi-step forms with auto-generated client- and server-side code.',
         categories: ['Code Snippet'],
         url: 'https://formcn.dev/',
+    },
+    {
+        name: 'FoundRole',
+        description:
+            'AI-powered job search platform for developers: an AI job search engine, a built-in Kanban application tracker, and an open-source MCP server to search live listings from Claude and ChatGPT.',
+        categories: ['Job', 'AI', 'Remote'],
+        url: 'https://foundrole.com',
+        keywords: ['jobs', 'job search', 'developer jobs', 'remote', 'tracker', 'mcp'],
     },
     {
         name: 'Foundy',
@@ -378,7 +423,7 @@ export const resources: Resource[] = [
         name: 'Framer',
         description:
             'Start your website with AI and design on a familiar canvas. Add animations, interactions and a CMS. Optimize for every breakpoint — no code needed and publish for free.',
-        categories: ['Design', 'Prototyping', 'UI', 'Website Builder'],
+        categories: ['Prototyping', 'UI', 'Website Builder'],
         url: 'https://www.framer.com',
     },
     {
@@ -481,7 +526,7 @@ export const resources: Resource[] = [
     {
         name: 'Freeicons',
         description:
-            'Freeicons is  a free platform for download vector icons in SVG, PNG, EPS, AI and PSD format. Here You',
+            'Freeicons is a free platform for download vector icons in SVG, PNG, EPS, AI and PSD format. Here You',
         categories: ['Icon'],
         url: 'https://freeicons.io/',
         keywords: [
@@ -567,13 +612,6 @@ export const resources: Resource[] = [
         url: 'https://freeter.io/',
     },
     {
-        name: 'FreshRemote.Work',
-        description: 'All fresh remote work and work from home opportunities with salaries in one place 🚀',
-        categories: ['Job', 'Remote'],
-        url: 'https://freshremote.work/',
-        keywords: ['career', 'fresh', 'opensalary', 'remote', 'jobs', 'jobsearch', 'developer', 'wfh'],
-    },
-    {
         name: 'FridayGPT',
         description: 'Fast and Native ChatGPT mac app. Access ChatGPT instantly on top of any app or website.',
         categories: ['AI', 'Productivity'],
@@ -622,6 +660,25 @@ export const resources: Resource[] = [
         url: 'https://www.fetoolkit.io/',
     },
     {
+        name: 'FrontendAtlas',
+        description:
+            'Frontend interview prep platform with hands-on JavaScript, UI, and DOM-oriented coding challenges.',
+        categories: ['Code Challenge', 'Learn', 'Programming'],
+        url: 'https://frontendatlas.com',
+        keywords: [
+            'frontend',
+            'javascript',
+            'typescript',
+            'ui',
+            'dom',
+            'react',
+            'angular',
+            'vue',
+            'interview',
+            'system design',
+        ],
+    },
+    {
         name: 'Frontendor',
         description:
             'Reusable HTML templates and blocks to help you build beautiful and professional landing pages quickly and easily by COPY-PASTE.',
@@ -648,7 +705,7 @@ export const resources: Resource[] = [
     {
         name: 'Fuselio',
         description:
-            'Fuselio is a rapid MVP development platform for startups and SMEs, enabling the development of custom mobile and web applications in just 6 weeks. ',
+            'Fuselio is a rapid MVP development platform for startups and SMEs, enabling the development of custom mobile and web applications in just 6 weeks.',
         categories: ['Productivity'],
         url: 'https://www.fuselio.com/',
         keywords: [
@@ -660,12 +717,5 @@ export const resources: Resource[] = [
             'developer',
             'Mobile Development',
         ],
-    },
-    {
-        name: 'Format JSON Online',
-        description: 'A Complete Toolkit for JSON & Data Processing.',
-        categories: ['Productivity', 'Tooling'],
-        url: 'https://formatjsononline.com/',
-        keywords: ['json'],
     },
 ]

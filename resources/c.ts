@@ -2,6 +2,14 @@ import { Resource } from 'types'
 
 export const resources: Resource[] = [
     {
+        name: 'Cactal',
+        description:
+            'Cactal is the website platform for AI agents. Connect Claude, Cursor, or your own agent and build, host, and operate production websites from one API.',
+        categories: ['Website Builder', 'AI', 'Tooling'],
+        url: 'https://cactal.ai',
+        keywords: ['AI agents', 'MCP', 'website builder', 'AI website builder', 'developer tools', 'headless CMS'],
+    },
+    {
         name: 'Cactro',
         description: 'India’s Fairest Technical Test | Trusted by 300+ Companies',
         categories: ['Job', 'Interview', 'Code Challenge'],
@@ -14,13 +22,6 @@ export const resources: Resource[] = [
             'Build an impressive resume and land that dream job. View online or download the PDF for FREE! CakeResume provides more than 50 resume templates and 1,000+ resume samples to help you make a professional resume in 10 minutes.',
         categories: ['Resume'],
         url: 'https://www.cakeresume.com/',
-    },
-    {
-        name: 'Callstack.ai Code Reviewer',
-        description: 'Effortless Code Reviews: Find Bugs, Fix Security Issues, and Speed Up Performance.',
-        categories: ['AI', 'Tooling'],
-        url: 'https://callstack.ai',
-        keywords: ['github-integration', 'gitlab-integration', 'pull-requests', 'AI', 'ai-powered', 'code-review'],
     },
     {
         name: 'CandyIcons',
@@ -68,7 +69,7 @@ export const resources: Resource[] = [
         description:
             'Cassandra is a free tool which is designed to manage a large amount of data across a wide range of servers. The tool offers support for replicating across multiple datacenters.',
         categories: ['Database'],
-        url: 'http://cassandra.apache.org/',
+        url: 'https://cassandra.apache.org/',
     },
     {
         name: 'Catalog by Thesys',
@@ -77,11 +78,45 @@ export const resources: Resource[] = [
         url: 'https://catalog.thesys.dev/',
     },
     {
+        name: 'CatchDoms',
+        description:
+            'Expired and auction domain finder aggregating 100k+ domains from 17 marketplaces, enriched with SEO metrics (Trust Flow, backlinks, age, historical tech stack). Ships a public REST API and an open-source MCP server so AI assistants like Claude can query the catalog in natural language.',
+        categories: ['Domain', 'SEO', 'AI'],
+        url: 'https://catchdoms.com',
+        keywords: [
+            'expired-domains',
+            'domain-finder',
+            'seo',
+            'backlinks',
+            'trust-flow',
+            'mcp',
+            'api',
+            'wayback',
+            'domainer',
+        ],
+    },
+    {
+        name: 'Causeway',
+        description:
+            'Give your AI a real Chromium browser: Causeway exposes 52 MCP tools to navigate, read, click, type, screenshot, and run JavaScript through CDP.',
+        categories: ['Browser', 'Tooling', 'AI'],
+        url: 'https://wildernessinteractive.com/causeway',
+        keywords: ['mcp', 'browser automation', 'chromium', 'chrome devtools protocol', 'rust', 'ai agents'],
+    },
+    {
         name: 'Cert Decoder',
         description:
             'Cert Decoder is a free online tool for decoding X.509 SSL/TLS certificates in PEM format directly in your browser.',
         categories: ['Security', 'Testing', 'Tooling'],
         url: 'https://certdecoder.com/',
+    },
+    {
+        name: 'Certificates.dev',
+        description:
+            'Recognized certification exams for Vue (official certification endorsed by Evan You), React, Angular, Nuxt, and JS. We’ve helped developers from 680+ companies worldwide validate their frontend skills.',
+        keywords: ['frontend', 'Javascript', 'Vue', 'React', 'Angular', 'Certification', 'coding challenge'],
+        categories: ['Programming', 'Resume', 'Code Challenge'],
+        url: 'https://certificates.dev/',
     },
     {
         name: 'Chaindesk',
@@ -158,6 +193,23 @@ export const resources: Resource[] = [
         keywords: ['ai', 'cloud', 'aws'],
     },
     {
+        name: 'CheatGrid',
+        description:
+            'Developer cheat sheets covering web development, programming languages, DevOps, AI, and more. Free cheat sheets available with no account needed.',
+        categories: ['Cheatsheet', 'Learn', 'Programming'],
+        url: 'https://cheatgrid.com',
+        keywords: [
+            'react',
+            'cheat sheet',
+            'reference',
+            'web development',
+            'javascript',
+            'frontend',
+            'python',
+            'devops',
+        ],
+    },
+    {
         name: 'Cheatography',
         description: 'Find thousands of incredible, original programming cheat sheets, all free to download.',
         categories: ['Cheatsheet'],
@@ -167,7 +219,7 @@ export const resources: Resource[] = [
         name: 'Check My Links',
         description: 'Check My Links is a link checker that crawls through your webpage and looks for broken links.',
         categories: ['Browser', 'Extension'],
-        url: 'https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf?hl=en',
+        url: 'https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf',
     },
     {
         name: 'Checka11y.css',
@@ -214,8 +266,8 @@ export const resources: Resource[] = [
         name: 'Chrome Reader Mode',
         description: 'Transform page to simple reading mode',
         categories: ['Extension', 'Productivity', 'Browser'],
-        url: 'https://chromewebstore.google.com/detail/chrome-reader-mode/opfflfgjinednmneaiplkponjphblmmc?hl=en',
-        keywords: ['chrome reader mode', 'reader mode chrome', 'chrome reading mode​', 'reader mode in chrome'],
+        url: 'https://chromewebstore.google.com/detail/chrome-reader-mode/opfflfgjinednmneaiplkponjphblmmc',
+        keywords: ['chrome reader mode', 'reader mode chrome', 'chrome reading mode', 'reader mode in chrome'],
     },
     {
         name: 'Circum Icons',
@@ -247,7 +299,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Clearbit',
-        description: 'Easily embed any company',
+        description:
+            "Easily embed any company's logo in your project with this simple & free API. Quickly lookup company logos using their domain. It's as easy as typing in a URL.",
         categories: ['Logo'],
         url: 'https://clearbit.com/logo',
         keywords: ['company logos'],
@@ -257,7 +310,7 @@ export const resources: Resource[] = [
         description: 'Drop-in React components for authentication and authorization.',
         categories: ['Authentication', 'Library', 'Programming'],
         url: 'https://clerk.com',
-        keywords: ['react', 'next.js', 'auth', ' user management', 'react auth', 'next.js auth', 'javascript auth'],
+        keywords: ['react', 'next.js', 'auth', 'user management', 'react auth', 'next.js auth', 'javascript auth'],
     },
     {
         name: 'Clideo',
@@ -330,7 +383,7 @@ export const resources: Resource[] = [
         description:
             'CodeWinds - Leading edge live and online developer training - in-person, public or private classes, webinars, video courses, resources, tutorials for fullstack web developers. Featuring javascript, React.js, Node.js, Redux, Functional programming, Reactive programming, RxJS, and related topics.',
         categories: ['Podcast', 'Programming'],
-        url: 'http://codewinds.com/podcast.html',
+        url: 'https://codewinds.com/podcast.html',
         keywords: [
             'web',
             'developer',
@@ -470,7 +523,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'CodePen Radio',
-        description: 'A podcast all about what it',
+        description:
+            "A podcast all about what it's like running a small web software business. The good, the bad, and the ugly.",
         categories: ['Podcast', 'Programming'],
         url: 'https://blog.codepen.io/radio/',
     },
@@ -518,6 +572,24 @@ export const resources: Resource[] = [
             'hiring',
             'test',
             'challenge',
+        ],
+    },
+    {
+        name: 'CoderTools',
+        description:
+            'Free, secure, and offline-capable developer tools. Features Formatter, Encoder/Decoder, Encryption/Decryption, and so on. 100% client-side processing for privacy.',
+        categories: ['Programming'],
+        url: 'https://www.codertools.net/',
+        keywords: [
+            'formatter',
+            'minifier',
+            'encoder',
+            'decoder',
+            'encryption',
+            'decryption',
+            'hash',
+            'protobuf',
+            'hardware access tools',
         ],
     },
     {
@@ -592,7 +664,7 @@ export const resources: Resource[] = [
     {
         name: 'Coding Tech',
         description:
-            'Coding Tech partners with the tech conferences around the world that provided Coding Tech with their EXPLICIT permissions to republish videos on this channel. Here',
+            "Coding Tech partners with the tech conferences around the world that provided Coding Tech with their EXPLICIT permissions to republish videos on this channel. Here's the list of Conferences that provided Coding Tech with EXPLICIT written publication permissions: PyData, MLConf, Build Stuff, Code::dive, PolyConf, AmsterdamJS, React Amsterdam, ReactiveConf, Jazoon Tech Days, SFNode, CppCon, Infinite Red, GDG Lviv, Mibuso.com, You Gotta Love Frontend, React Native EU, Node Summit, NodeConfEU, ConFoo, Pixels Camp, JavaScriptLA, The Linux Foundation, Oredev Conference, Techlahoma, fitcevents. Coding Tech also re-posts content which was originally published with the Creative Commons Attribution license (reuse allowed).",
         categories: ['Programming', 'YouTube Channel'],
         url: 'https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ',
         keywords: [
@@ -626,7 +698,7 @@ export const resources: Resource[] = [
         description:
             'Daily inspiration collected from daily ui archive and beyond. Based on Dribbble shots, hand picked, updating daily.',
         categories: ['Inspiration', 'UI'],
-        url: 'http://collectui.com/',
+        url: 'https://collectui.com/',
         keywords: ['dailyui', 'daily ui', 'ui challenge', 'daily inspiration', 'ui inspiration'],
     },
     {
@@ -665,7 +737,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'Colorlib',
-        description: 'Colorlib is the ONLY resource you',
+        description:
+            "Colorlib is the ONLY resource you'll need to start a blog using WordPress! We offer comprehensive yet easy to follow guides well suited for beginner bloggers.",
         categories: ['Template'],
         url: 'https://colorlib.com/',
     },
@@ -688,7 +761,7 @@ export const resources: Resource[] = [
         description:
             'Generate color combinations in one click. Colormind creates cohesive color schemes using a deep neural net.',
         categories: ['Color'],
-        url: 'http://colormind.io/',
+        url: 'https://colormind.io/',
     },
     {
         name: 'colors.lol',
@@ -715,6 +788,14 @@ export const resources: Resource[] = [
         description: 'Advanced Eyedropper, Color Picker, Gradient Generator and more.',
         categories: ['Color', 'Editor', 'Extension'],
         url: 'https://www.colorzilla.com/',
+    },
+    {
+        name: 'CommentKeyword',
+        description:
+            'CommentKeyword turns Instagram comments into qualified leads: auto-replies to keyword comments, sends an instant DM with your offer, and can continue the conversation with an AI agent. Billed per DM, not per contact.',
+        categories: ['Marketing', 'Social Media', 'AI'],
+        url: 'https://commentkeyword.com/',
+        keywords: ['instagram', 'instagram marketing', 'comment automation', 'dm automation', 'lead generation'],
     },
     {
         name: 'Commit Your Code!',
@@ -752,13 +833,6 @@ export const resources: Resource[] = [
             'startup',
             'talk radio',
         ],
-    },
-    {
-        name: 'Community List',
-        description:
-            'Finding relevant communities takes hours and manual googling sucks. With Community List, quickly find relevant communities with all the data you need in one place.',
-        categories: ['Marketing'],
-        url: 'https://getcommunitylist.com/',
     },
     {
         name: 'Compare pixels',
@@ -800,6 +874,14 @@ export const resources: Resource[] = [
         description: 'List of Computer Science courses with video lectures.',
         categories: ['Learn', 'Programming'],
         url: 'https://github.com/Developer-Y/cs-video-courses',
+    },
+    {
+        name: 'Confetti Trigger',
+        description:
+            'A cross-platform background service that generates celebratory confetti animations triggered via HTTP API, enabling developers to add visual celebrations to automated workflows.',
+        categories: ['Tooling'],
+        url: 'https://confetti-trigger.dev/',
+        keywords: ['confetti', 'celebration', 'automation', 'api', 'ci/cd', 'background service'],
     },
     {
         name: 'Confs.Tech',
@@ -882,6 +964,22 @@ export const resources: Resource[] = [
         keywords: ['ai sdr', 'sales', 'ai sales outreach', 'b2b lead generation'],
     },
     {
+        name: 'ConvertImage.tools',
+        description:
+            'Free browser-based image tools including converter, compressor, background remover, and more. All processing happens client-side with no signup required.',
+        categories: ['Image', 'Tooling'],
+        url: 'https://convertimage.tools',
+        keywords: ['image converter', 'image compressor', 'background remover', 'client-side', 'image tools'],
+    },
+    {
+        name: 'Convertyard',
+        description:
+            'ConvertYard converts images, PDFs, audio, and video files locally using WebAssembly — your files never leave your device.',
+        categories: ['Image'],
+        url: 'https://convertyard.com/',
+        keywords: ['JPG to WebP', 'JPG to AVIF', 'Image Compressor', 'Image Resizer', 'Image Cropper'],
+    },
+    {
         name: 'CookieYes',
         description:
             'CookieYes is a cookie consent solution that helps your website achieve GDPR and CCPA compliance easily. Create a lifetime free account!',
@@ -932,7 +1030,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'CopyAI',
-        description: 'We have created the world',
+        description:
+            "We have created the world's most advanced artificial intelligence copywriter that enables you to create marketing copy in seconds!",
         categories: ['AI', 'Writing'],
         url: 'https://www.copy.ai/',
     },
@@ -947,7 +1046,7 @@ export const resources: Resource[] = [
             'react',
             'next.js',
             'auth',
-            ' user management',
+            'user management',
             'react auth',
             'next.js auth',
             'javascript auth',
@@ -967,6 +1066,14 @@ export const resources: Resource[] = [
             'Time is our most valuable asset, that’s why we want to help you save it by creating simple, customizable, easy to learn UI components and Admin Templates which significantly cut development time. CoreUI lets you save thousands of priceless hours because it offers everything you need to create modern, beautiful, and responsive applications.',
         categories: ['Template'],
         url: 'https://coreui.io/',
+    },
+    {
+        name: 'Cortex',
+        description:
+            'Generate interactive API documentation, typed SDKs, and MCP servers from API specifications and Markdown.',
+        categories: ['API Building', 'Documentation', 'Tooling'],
+        url: 'https://cortexdocs.dev',
+        keywords: ['openapi', 'asyncapi', 'graphql', 'grpc', 'openrpc', 'sdk', 'mcp'],
     },
     {
         name: 'CouchDB',
@@ -1007,6 +1114,13 @@ export const resources: Resource[] = [
         keywords: ['ui', 'ux', 'vector', 'graphics', '3d'],
     },
     {
+        name: 'CrawlRaven',
+        description: 'Professional SEO audits with 200+ checks and prioritized fixes',
+        categories: ['SEO', 'Marketing', 'Scraping'],
+        url: 'https://www.crawlraven.com/',
+        keywords: ['marketing', 'seo audit', 'technical seo', 'site crawler'],
+    },
+    {
         name: 'CreativesFeed',
         description:
             'CreativesFeed works to share the best free code snippets and web development resources online. We create free, downloadable code snippets and provide tutorials on web design and development to help agencies and individuals learn and grow!',
@@ -1039,7 +1153,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'CS50',
-        description: 'This is CS50, Harvard University',
+        description:
+            "This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming. Demanding, but definitely doable. Social, but educational. A focused topic, but broadly applicable skills. CS50 is the quintessential Harvard (and Yale!) course.",
         categories: ['Programming', 'YouTube Channel'],
         url: 'https://www.youtube.com/user/cs50tv',
         keywords: ['cs50 harvard computer science david j. malan'],
@@ -1079,7 +1194,8 @@ export const resources: Resource[] = [
     },
     {
         name: 'CSS Scan',
-        description: 'Goodbye to ',
+        description:
+            'Goodbye to "Inspect Element" — Visualize the CSS of any element you hover over, instantly, and copy its entire rules with a single click.',
         categories: ['Browser', 'Extension', 'Programming'],
         url: 'https://getcssscan.com/',
     },
@@ -1092,7 +1208,7 @@ export const resources: Resource[] = [
     {
         name: 'CSS-Tricks',
         description: 'CSS-Tricks is a website about websites.',
-        categories: ['Blog', 'Code Snippet', 'Newsletter', 'Programming'],
+        categories: ['Blog', 'Code Snippet', 'Newsletter'],
         url: 'https://css-tricks.com',
     },
     {

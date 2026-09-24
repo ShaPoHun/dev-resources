@@ -9,6 +9,22 @@ export const resources: Resource[] = [
         keywords: ['task management', 'project management', 'documents', 'collaboration'],
     },
     {
+        name: 'ValidateHTML',
+        description:
+            'Free online validation tools for HTML, CSS, JSON, XML, meta tags, and Open Graph. Get instant quality scores from 0 to 100.',
+        categories: ['Testing', 'Tooling', 'SEO'],
+        url: 'https://validatehtml.com',
+        keywords: [
+            'html validator',
+            'css validator',
+            'json validator',
+            'xml validator',
+            'meta tag checker',
+            'open graph checker',
+            'accessibility checker',
+        ],
+    },
+    {
         name: 'Vatis Tech',
         description:
             'Vatis Tech offers advanced speech-to-text technology, converting audio or video files into text with over 90% accuracy using proprietary deep-learning algorithms',
@@ -24,11 +40,47 @@ export const resources: Resource[] = [
         url: 'https://www.artify.co/vector-illustrations',
     },
     {
+        name: 'Vectoralix',
+        description:
+            'Vectoralix is a managed platform for building and operating Model Context Protocol servers without creating the infrastructure from scratch.',
+        categories: ['AI'],
+        url: 'https://vectoralix.com',
+    },
+    {
+        name: 'VectorElements',
+        description:
+            'VectorElements offers free and premium vector illustrations, icons, UI kits, textures, and design assets for websites, apps, print, and digital projects.',
+        categories: ['Illustration'],
+        url: 'https://vectorelements.net/',
+        keywords: [
+            'vector illustrations',
+            'free vectors',
+            'SVG graphics',
+            'design resources',
+            'web graphics',
+            'SVG illustrations',
+            'icons',
+            'graphic assets',
+            'web design',
+            'icons pack',
+            'creative resources',
+            'vector graphics',
+        ],
+    },
+    {
         name: 'Vectr',
         description:
             'Free vector graphics editor. A simple yet powerful web and desktop cross-platform tool for everyone.',
         categories: ['Editor', 'Image'],
         url: 'https://vectr.com/',
+    },
+    {
+        name: 'VeilStrat',
+        url: 'https://veilstrat.com',
+        description:
+            'B2B SaaS platform that surfaces AI adoption signals across organizations, with a playbooks directory to help teams discover and implement AI agent skills and MCP use cases.',
+        categories: ['AI', 'Productivity', 'Marketing'],
+        keywords: ['ai adoption', 'ai signals', 'GTM signals', 'b2b saas', 'workflows', 'enterprise ai'],
     },
     {
         name: 'Velocity',
@@ -89,6 +141,14 @@ export const resources: Resource[] = [
         keywords: ['video face swap', 'photo face swap', 'ai video tools', 'ai image tools'],
     },
     {
+        name: 'ViewJSON',
+        description:
+            'Free online JSON viewer that automatically detects and previews Base64-encoded images, audio, video, and PDFs inline. Also supports JSON formatting and file-to-Base64 conversion.',
+        categories: ['Tooling', 'Productivity'],
+        url: 'https://viewjson.net',
+        keywords: ['json', 'base64', 'viewer', 'formatter', 'api', 'developer tools'],
+    },
+    {
         name: 'Vim',
         description:
             'Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.',
@@ -102,14 +162,6 @@ export const resources: Resource[] = [
             'VIM Adventures is an online game based on VIM\'s keyboard shortcuts. It\'s the "Zelda meets text editing" game. So come have some fun and learn some VIM!',
         categories: ['Typing'],
         url: 'https://vim-adventures.com/',
-    },
-    {
-        name: 'VitePress',
-        categories: ['Documentation'],
-        description:
-            'VitePress is a Vite-powered static site generator. It provides fast, modern, and lightweight documentation sites with native ESM support and instant hot reload.',
-        url: 'https://vitepress.dev/',
-        keywords: ['vitepress', 'static site generator', 'documentation', 'vite', 'markdown', 'docs', 'site generator'],
     },
     {
         name: 'Virlo',
@@ -129,7 +181,7 @@ export const resources: Resource[] = [
         name: 'Visily',
         description:
             'Visily leverages AI to generate stunning app wireframes and prototypes from various inputs such as text prompts, hand-drawn sketches, and screenshots of existing applications or websites.',
-        categories: ['UI', 'UX', 'Design', 'Prototyping', 'AI'],
+        categories: ['Design', 'Prototyping', 'AI'],
         url: 'https://www.visily.ai/',
     },
     {
@@ -142,9 +194,17 @@ export const resources: Resource[] = [
     {
         name: 'Visual Studio Code',
         description:
-            'Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.',
+            'Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.',
         categories: ['Editor', 'Programming'],
         url: 'https://code.visualstudio.com/',
+    },
+    {
+        name: 'VitePress',
+        categories: ['Documentation'],
+        description:
+            'VitePress is a Vite-powered static site generator. It provides fast, modern, and lightweight documentation sites with native ESM support and instant hot reload.',
+        url: 'https://vitepress.dev/',
+        keywords: ['vitepress', 'static site generator', 'documentation', 'vite', 'markdown', 'docs', 'site generator'],
     },
     {
         name: 'Vitest',
@@ -155,9 +215,17 @@ export const resources: Resource[] = [
         keywords: ['unit testing', 'vite', 'vitest', 'test runner', 'javascript', 'typescript', 'esm', 'fast testing'],
     },
     {
-        name: 'Voiden',
-        description: '100% offline API client, free, no account required. Build and test APIs without the bloat.',
-        categories: ['API Building', 'Documentation'],
+        name: 'Voibe',
+        description: 'Fast, private, on device AI voice dictation app for Mac',
+        categories: ['Productivity', 'AI', 'Writing'],
+        url: 'https://www.getvoibe.com',
+        keywords: ['mac dictation', 'voice to text', 'speech to text', 'voice typing'],
+    },
+    {
+        name: 'Voiden API Client',
+        description:
+            'Offline, Git Native API Client - Design, Test & Document APIs in one place. Plain text executable files all the way. Community plugins.',
+        categories: ['API Building', 'Tooling'],
         url: 'https://voiden.md',
         keywords: ['api', 'api client', 'api documentation', 'api testing', 'api mocks'],
     },
@@ -167,6 +235,14 @@ export const resources: Resource[] = [
         categories: ['Cheatsheet'],
         url: 'https://vue-cheatsheet.themeselection.com/',
         keywords: ['VueJS', 'vue cheatsheet', 'vue', 'Free cheatsheet', 'Opensource'],
+    },
+    {
+        name: 'Vue School',
+        description:
+            'The #1 source for learning the Vue ecosystem. Basic to advanced Vue.js, Nuxt, Pinia, and more. Vue Masterclass and over 1500+ lessons from core team members & industry experts.',
+        categories: ['Learn'],
+        keywords: ['vue', 'vue.js', 'pinia', 'nuxt', 'javascript', 'typescript', 'learning'],
+        url: 'https://vueschool.io',
     },
     {
         name: 'Vue.js devtools',
@@ -181,5 +257,12 @@ export const resources: Resource[] = [
             'Vue.js jobs is the best place to hire or get hired as Vue.js developer. Find Vue.js talent and reach to thousands of developers.',
         categories: ['Job'],
         url: 'https://vuejobs.com/',
+    },
+    {
+        name: 'Vurge',
+        description: "It's like Clay but in Google Sheets",
+        categories: ['AI', 'Productivity'],
+        url: 'https://getvurge.com/',
+        keywords: ['google sheets', 'ai', 'web scraping', 'data enrichment', 'sales'],
     },
 ]

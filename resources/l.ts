@@ -2,6 +2,14 @@ import { Resource } from 'types'
 
 export const resources: Resource[] = [
     {
+        name: 'LabEx',
+        description:
+            'Hands-on online learning platform for Linux, DevOps, cybersecurity, programming, data science, and more through interactive labs.',
+        categories: ['Learn', 'Programming'],
+        url: 'https://labex.io',
+        keywords: ['hands-on labs', 'linux', 'devops', 'cybersecurity', 'programming'],
+    },
+    {
         name: 'Ladybug',
         description: 'We’re debugging the tech industry. Every Monday.',
         categories: ['Podcast', 'Programming'],
@@ -45,13 +53,6 @@ export const resources: Resource[] = [
         url: 'https://gumroad.com/a/124908659',
     },
     {
-        name: 'LandingPro AI',
-        description: 'AI that writes website copy that actually sell',
-        categories: ['AI', 'Marketing'],
-        url: 'https://landingpro.ai/',
-        keywords: ['marketing', 'ai'],
-    },
-    {
         name: 'Lapa Ninja',
         description:
             'The best landing page design inspiration from around the web. Lapa Ninja is created to help designers find inspiration, learn and improve design skills. The contents are selected from the best designs, and daily updated.',
@@ -69,43 +70,18 @@ export const resources: Resource[] = [
         ],
     },
     {
-        name: 'Laradir',
-        description:
-            'The biggest directory of Laravel engineers. Find your next role or gig. Laradir is a reverse job board, so teams reach out to you!',
-        categories: ['Job', 'Freelance', 'Remote'],
-        url: 'https://laradir.com/',
-        keywords: [
-            'laravel developers',
-            'laravel freelancers',
-            'directory',
-            'collaborators',
-            'mentor',
-            'full-time',
-            'part-time',
-            'hybrid',
-            'remote',
-        ],
-    },
-    {
         name: 'Larajobs',
         description: 'Since 2014, the #1 Laravel job board connecting the best jobs with top talent.',
         categories: ['Job'],
         url: 'https://larajobs.com/',
     },
     {
-        name: 'Launch Squad',
-        description: 'The best Product Hunt alternatives for your next launch.',
-        categories: ['Productivity', 'Marketing'],
-        url: 'https://www.launchsquad.club',
-        keywords: [
-            'Entrepreneurship',
-            'Collaboration',
-            'Startups',
-            'Growth Strategies',
-            'Community Support',
-            'Marketing',
-            'Project Management',
-        ],
+        name: 'LargeMI',
+        description:
+            'LargeMI is a curated directory of AI tools focused on productivity, development, content creation, and business use cases, helping users discover and explore modern AI products through clear categorization.',
+        categories: ['AI', 'Productivity'],
+        url: 'https://largemi.com',
+        keywords: ['ai tools', 'ai directory', 'developer productivity', 'generative ai'],
     },
     {
         name: 'Layoutit Grid',
@@ -113,44 +89,6 @@ export const resources: Resource[] = [
             'Quickly design web layouts, and get HTML and CSS code. Learn CSS Grid visually and build web layouts with our interactive CSS Grid Generator.',
         categories: ['Code Generator'],
         url: 'https://grid.layoutit.com/',
-    },
-    {
-        name: 'Lead Generation Tools',
-        description: 'Handpicked Collection Of Lead Generation Tool',
-        categories: ['Marketing', 'Productivity', 'Startup'],
-        url: 'https://www.lead-generation.tools',
-        keywords: ['directory', 'automation', 'ai', 'aggregators'],
-    },
-    {
-        name: 'LandingPro AI',
-        categories: ['AI', 'Marketing'],
-        description: 'AI that writes website copy that actually sell',
-        url: 'https://landingpro.ai/',
-
-        keywords: ['marketing', 'ai'],
-    },
-    {
-        name: 'Learnify',
-        categories: ['Learn', 'Programming'],
-        description:
-            'Learnify is an all-in-one web development learning platform designed for beginners to advanced learners. Explore easy-to-understand tutorials on HTML, CSS, JavaScript, and React—all in one place.',
-        url: 'https://learnify.shefali.dev/',
-        keywords: ['web development tutorials', 'frontend development'],
-    },
-    {
-        name: 'Lenis',
-        description: 'A smooth scroll library fresh out of darkroom.engineering',
-        categories: ['Library'],
-        url: 'https://lenis.darkroom.engineering/',
-        keywords: ['smooth scroll', 'scroll', 'animation', 'javascript', 'library'],
-    },
-    {
-        name: 'LearnWeb3',
-        categories: ['Learn', 'Web3'],
-        description: 'LearnWeb3 is the best place to turn you into a web3 developer for completely free.',
-        url: 'https://learnweb3.io/',
-
-        keywords: ['web3', 'web3 developer', 'web3 developer course'],
     },
     {
         name: 'Learn CSS',
@@ -217,6 +155,14 @@ export const resources: Resource[] = [
         keywords: ['web development web design tutorials web development tutorial learn html css javascript'],
     },
     {
+        name: 'Learnify',
+        categories: ['Learn', 'Programming'],
+        description:
+            'Learnify is an all-in-one web development learning platform designed for beginners to advanced learners. Explore easy-to-understand tutorials on HTML, CSS, JavaScript, and React—all in one place.',
+        url: 'https://learnify.shefali.dev/',
+        keywords: ['web development tutorials', 'frontend development'],
+    },
+    {
         name: 'LearnWeb3',
         description: 'LearnWeb3 is the best place to turn you into a web3 developer for completely free.',
         categories: ['Learn', 'Web3'],
@@ -224,18 +170,18 @@ export const resources: Resource[] = [
         keywords: ['web3', 'web3 developer', 'web3 developer course'],
     },
     {
-        name: 'Lede',
-        description: 'Generate In-Depth Blog Content',
-        categories: ['Writing', 'Productivity', 'AI'],
-        url: 'https://thelede.ai',
-        keywords: ['assistant', 'research', 'content', 'blog'],
-    },
-    {
         name: 'LeetCode',
         description:
             'Level up your coding skills and quickly land a job. This is the best place to expand your knowledge and get prepared for your next interview.',
         categories: ['Code Challenge'],
         url: 'https://leetcode.com/',
+    },
+    {
+        name: 'Lenis',
+        description: 'A smooth scroll library fresh out of darkroom.engineering',
+        categories: ['Library'],
+        url: 'https://lenis.darkroom.engineering/',
+        keywords: ['smooth scroll', 'scroll', 'animation', 'javascript', 'library'],
     },
     {
         name: 'Let',
@@ -279,14 +225,6 @@ export const resources: Resource[] = [
         ],
     },
     {
-        name: 'Lightpost',
-        description:
-            'Fully automate or co-create your blogs and posts with an A.I. trained on your business. Plan, design, write and upload anywhere, while keeping full control.',
-        categories: ['AI', 'Blog', 'Marketing'],
-        url: 'https://lightpost.ai',
-        keywords: ['AI Marketing Automation', 'AI Blog Writer', 'AI Social Media Manager'],
-    },
-    {
         name: 'Lindo AI',
         description:
             'A white-label AI website builder empowering entrepreneurs and agencies to start their own web design businesses in minutes',
@@ -307,13 +245,6 @@ export const resources: Resource[] = [
             '2000+ Essential Line Icons, A Complete Yet Most Simplified Free Line Icon Pack of the Web - Available in WebFont, SVG, PNG, React, PNG, and PDF Files.',
         categories: ['Icon'],
         url: 'https://lineicons.com/',
-    },
-    {
-        name: 'Linito',
-        description: 'A better interface for Google Analytics',
-        categories: ['Analytics', 'Marketing'],
-        url: 'https://linito.io/',
-        keywords: ['Google Analytics', 'Analytics', 'web analytics', 'website analytics'],
     },
     {
         name: 'LinkDR',
@@ -359,6 +290,13 @@ export const resources: Resource[] = [
         url: 'https://www.linode.com/',
     },
     {
+        name: 'Linxalium',
+        description:
+            'Linxalium is a curated discovery platform for useful software, online services, and independent products.',
+        categories: ['SEO'],
+        url: 'https://linxalium.com',
+    },
+    {
         name: 'Lite Analytics',
         description:
             'Lite Analytics is simple lightweight Google Analytics alternatice. It is privacy focused and doesn',
@@ -366,10 +304,39 @@ export const resources: Resource[] = [
         url: 'https://liteanalytics.com/',
     },
     {
+        name: 'LITSLINK',
+        categories: ['AI', 'Startup'],
+        description:
+            'LITSLINK is a software development company that builds custom web and mobile products, including SaaS, AI-driven solutions, and cloud platforms, helping businesses design, develop, and scale digital products from idea to launch.',
+        url: 'https://litslink.com',
+        keywords: [
+            'software development',
+            'custom web and mobile products',
+            'SaaS',
+            'AI-driven solutions',
+            'cloud platforms',
+        ],
+    },
+    {
+        name: 'Live Tennis API',
+        description:
+            'Tennis data API with live scores (serving and break-point state), player rankings, fixtures, and match history; free keyed tier available.',
+        categories: ['Analytics', 'Tooling'],
+        url: 'https://livetennisapi.com',
+        keywords: ['tennis', 'live scores', 'sports data', 'rankings', 'fixtures', 'api'],
+    },
+    {
         name: 'Lobsters',
         description: 'Lobsters is a computing-focused community centered around link aggregation and discussion.',
         categories: ['Forum'],
         url: 'https://lobste.rs/',
+    },
+    {
+        name: 'LocalChat.app',
+        description: 'Local-first MacOS AI application - 100% Private, Works Fully Offline',
+        categories: ['AI', 'Productivity', 'Security'],
+        url: 'https://www.localchat.app/',
+        keywords: ['ai chat', 'private', 'productivity tool', 'ollama alternative'],
     },
     {
         name: 'LocalStack',
@@ -388,18 +355,26 @@ export const resources: Resource[] = [
         ],
     },
     {
+        name: 'Loggd',
+        description: 'Habit tracker and planner that helps you actually stick with it',
+        categories: ['Productivity', 'Tooling', 'Startup'],
+        url: 'https://loggd.life/',
+        keywords: ['habit tracker', 'planner', 'task management', 'goal tracking'],
+    },
+    {
+        name: 'LogoInspo',
+        description:
+            'The ultimate logo design inspiration library with 1,200+ hand-picked real and fictional logos searchable by style, industry, and color.',
+        categories: ['Logo', 'Design', 'Inspiration'],
+        url: 'https://logoinspo.com',
+        keywords: ['logo inspiration', 'branding', 'logo design', 'brand marks'],
+    },
+    {
         name: 'Logology',
         description:
             'No random generation and no symbols from a free database. Everything was crafted from the ground-up!',
         categories: ['Logo'],
         url: 'https://www.logology.co/',
-    },
-    {
-        name: 'LogoTaco',
-        description:
-            'Create or make your own logo design from our resource of free downloads and templates for businesses, companies, MVP',
-        categories: ['Logo'],
-        url: 'https://www.logotaco.com/',
     },
     {
         name: 'LogRocket',
@@ -424,7 +399,7 @@ export const resources: Resource[] = [
         name: 'Lost Type Co-op',
         description: 'Lost Type is a collaborative digital type foundry.',
         categories: ['Font'],
-        url: 'http://losttype.com/',
+        url: 'https://losttype.com/',
     },
     {
         name: 'Lottielab',

@@ -61,6 +61,13 @@ export const resources: Resource[] = [
         keywords: ['gcore', 'speed test', 'internet speed', 'bandwidth'],
     },
     {
+        name: 'GenDesigns',
+        description: 'AI Mobile App Design Generator',
+        categories: ['Design', 'AI', 'UI'],
+        url: 'https://gendesigns.ai/',
+        keywords: ['ai app designer', 'mobile app mockup generator', 'ai ui design tool', 'ai prototype generator'],
+    },
+    {
         name: 'Get The Audience',
         description:
             'Get The Audience helps you grow your Twitter audience by analyzing what they care about, who they are, and when they can be reached.',
@@ -78,6 +85,24 @@ export const resources: Resource[] = [
         description: 'Generate a simple Terms of Service and Privacy Policy statement for your website.',
         categories: ['Legal'],
         url: 'https://getterms.io/',
+    },
+    {
+        name: 'GIF Master',
+        description:
+            'GIF tools for compression, speed control, background removal, GIF-to-WebP, GIF-to-PNG, GIF-to-video, PNG-to-GIF, video-to-GIF, and screen recording.',
+        categories: ['Image', 'Video', 'Tooling'],
+        url: 'https://gif-master.com',
+        keywords: [
+            'gif compressor',
+            'gif speed changer',
+            'remove gif background',
+            'gif to webp',
+            'gif to png',
+            'gif to video',
+            'png to gif',
+            'video to gif',
+            'screen recorder',
+        ],
     },
     {
         name: 'Git Cheat Sheets',
@@ -115,11 +140,20 @@ export const resources: Resource[] = [
         keywords: ['Coding', 'Codebase', 'Repositories', 'Code Review', 'Git', 'Commits', 'Pull Requests'],
     },
     {
-        name: 'Gliesess 90 marketing strategy breakdowns',
+        name: 'gitty',
         description:
-            'Browse the most comprehensive list of online marketing strategies on the internet. Find the Social Media and Search Engine strategies of each company.',
-        categories: ['SEO', 'Learn', 'Marketing'],
-        url: 'https://www.gliesess.com/online-marketing-strategies',
+            'Git workflow CLI tool. Stage, commit, and push in one command, with selective line commits, interactive conflict resolution, and history rewriting.',
+        categories: ['Terminal', 'Tooling'],
+        url: 'https://github.com/Omibranch/gitty',
+        keywords: ['git', 'cli', 'workflow', 'terminal', 'commit', 'golang'],
+    },
+    {
+        name: 'GlobalEntity',
+        description:
+            'One REST API for official company data from 50+ European business registers, returning status, legal form, address, VAT and LEI as normalized JSON.',
+        categories: ['Database', 'Security'],
+        url: 'https://www.globalentityapi.com',
+        keywords: ['company data', 'kyc', 'business registry', 'lei', 'vat'],
     },
     {
         name: 'GoatCounter',
@@ -148,13 +182,6 @@ export const resources: Resource[] = [
         description: 'GoLand is an IDE by JetBrains aimed at providing an ergonomic environment for Go development.',
         categories: ['Editor', 'Programming'],
         url: 'https://www.jetbrains.com/go/',
-    },
-    {
-        name: 'Golang Developer Jobs',
-        description:
-            'Find specific Golang Developer Jobs, including Remote Jobs. You are looking for Golang Developers? Submit your position for free.',
-        categories: ['Job'],
-        url: 'https://golangjob.xyz/',
     },
     {
         name: 'Google Chrome Developers',
@@ -222,22 +249,6 @@ export const resources: Resource[] = [
         ],
     },
     {
-        name: 'GPT4oMini',
-        description: 'GPT4oMini.app: Free GPT4oMini Access - Advanced AI Conversation Generator',
-        categories: ['AI'],
-        url: 'https://gpt4omini.app/',
-        keywords: [
-            'GPT4oMini',
-            'GPT4o',
-            'Free GPT-4',
-            'ChatGPT',
-            'ChatGPT4oMini',
-            'chatbot',
-            'Free ChatGPT Access',
-            'AI Conversation Generator',
-        ],
-    },
-    {
         name: 'Gradient',
         description:
             'Thousands of trendy color gradients in a curated collection that is updated daily. Get a fresh color gradient for your next design project and save all the gradients you like.',
@@ -265,18 +276,17 @@ export const resources: Resource[] = [
         url: 'https://gramara.com/',
     },
     {
-        name: 'Grammarly',
-        description:
-            'Grammarly makes sure everything you type is easy to read, effective, and mistake-free. Try it today:.',
-        categories: ['Productivity', 'Writing'],
-        url: 'https://grammarly.com',
-    },
-    {
         name: 'GrammarChecker',
         description: 'AI Grammar Checker instantly fixes writing errors',
         categories: ['Writing', 'AI', 'Productivity'],
         url: 'https://aigrammarchecker.io/',
         keywords: ['ai grammar checker', 'online grammar tool', 'writing assistant', 'english grammar correction'],
+    },
+    {
+        name: 'Grammarly',
+        description: 'Grammarly makes sure everything you type is easy to read, effective, and mistake-free.',
+        categories: ['Productivity', 'Writing'],
+        url: 'https://grammarly.com',
     },
     {
         name: 'GrayGrids',
@@ -298,6 +308,13 @@ export const resources: Resource[] = [
         description: 'A game for learning CSS grid layout.',
         categories: ['Learn', 'Programming'],
         url: 'https://cssgridgarden.com/',
+    },
+    {
+        name: 'Gro',
+        description: 'AI Sales Agent for B2B Lead Generation',
+        categories: ['AI', 'Marketing', 'Productivity'],
+        url: 'https://thegro.ai/',
+        keywords: ['sales', 'automation', 'lead generation', 'marketing'],
     },
     {
         name: 'Grommet',

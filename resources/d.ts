@@ -51,6 +51,14 @@ export const resources: Resource[] = [
         url: 'https://dailyremote.com/',
     },
     {
+        name: 'DailyTips',
+        description:
+            'A 5-minute daily read on decisions, logic, distribution, and the thinking that turns code into products people use.',
+        categories: ['Blog', 'Learn'],
+        url: 'https://dailytips.dev',
+        keywords: ['tips', 'programming', 'daily', 'product thinking', 'software development'],
+    },
+    {
         name: 'daisyUI',
         description: 'Tailwind CSS Components plugin — daisyUI tailwind component library',
         categories: ['Library', 'Programming', 'UI'],
@@ -166,11 +174,12 @@ export const resources: Resource[] = [
         ],
     },
     {
-        name: 'Default Alive',
+        name: 'DeepZero',
         description:
-            'Two founders share an unedited look at what it\'s like to bootstrap a startup through weekly updates. Chris Spags is the founder of Jetboost, a suite of no-code plugins for Webflow. Corey Haines is the founder of Swipe Files, a membership site for marketers built with no-code tools. They chronicle their journeys getting to and staying "default alive": profitable, self-sustaining, with infinite runway. – Listen to Default Alive instantly on your tablet, phone or browser - no downloads needed.',
-        categories: ['Podcast', 'Startup'],
-        url: 'https://podtail.com/en/podcast/default-alive/',
+            'MIT-licensed Python engine for building resumable security-analysis pipelines with custom processors, Ghidra, Semgrep, and optional LLM assessment.',
+        categories: ['Security', 'Open Source', 'Tooling'],
+        url: 'https://blog.ahmadz.ai/DeepZero/en/',
+        keywords: ['python', 'pipeline', 'reverse engineering', 'windows drivers', 'ghidra', 'semgrep'],
     },
     {
         name: 'Design Resources',
@@ -288,10 +297,18 @@ export const resources: Resource[] = [
         url: 'https://devhints.io/',
     },
     {
+        name: 'DevHub',
+        description:
+            'DevHub is a platform to discover and upvote the best tech products. Find top products launching daily.',
+        categories: ['Marketing', 'Startup'],
+        url: 'https://devhub.best/',
+        keywords: ['directory', 'community', 'seo', 'growth'],
+    },
+    {
         name: 'Devicons',
         description: 'An iconic font made for developers.',
         categories: ['Icon'],
-        url: 'http://vorillaz.github.io/devicons',
+        url: 'https://vorillaz.github.io/devicons',
     },
     {
         name: 'DevNews',
@@ -306,7 +323,7 @@ export const resources: Resource[] = [
         description:
             'DevSamples is a list of code samples for you to copy and paste into your projects as needed. The primary focus is on web development, but there are samples from a variety of languages.',
         categories: ['Code Snippet'],
-        url: 'http://www.devsamples.com/',
+        url: 'https://www.devsamples.com/',
     },
     {
         name: 'DevTips',
@@ -314,14 +331,6 @@ export const resources: Resource[] = [
         categories: ['Programming', 'YouTube Channel'],
         url: 'https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ',
         keywords: ['HTML CSS Javascript Web Development Coding Design'],
-    },
-    {
-        name: 'DevHub',
-        description:
-            'DevHub is a platform to discover and upvote the best tech products. Find top products launching daily.',
-        categories: ['Marketing', 'Startup'],
-        url: 'https://devhub.best/',
-        keywords: ['directory', 'community', 'seo', 'growth'],
     },
     {
         name: 'Dhiwise',
@@ -364,13 +373,6 @@ export const resources: Resource[] = [
         keywords: ['directory', 'template', 'javascript', 'development tool', 'boilerplate'],
     },
     {
-        name: 'DirectoryTemplates',
-        description: 'Directory for directory templates',
-        categories: ['Template', 'Programming'],
-        url: 'https://www.directorytemplates.co',
-        keywords: ['directory', 'template', 'javascript', 'development tool', 'boilerplate', 'starter'],
-    },
-    {
         name: 'Directus',
         description:
             'Directus is a headless CMS that instantly turns your SQL database into REST and GraphQL APIs and provides a beautiful no-code app to manage content.',
@@ -394,7 +396,7 @@ export const resources: Resource[] = [
     {
         name: 'Divjoy',
         description:
-            'The React codebase generator. Divjoy handles all the integration details. From routing to React hooks, you',
+            "The React codebase generator. Divjoy handles all the integration details. From routing to React hooks, you'll have everything you need to build something great.",
         categories: ['Programming', 'Template'],
         url: 'https://divjoy.com/',
     },
@@ -435,18 +437,18 @@ export const resources: Resource[] = [
         url: 'https://domain.garden/',
     },
     {
+        name: 'Domainee',
+        description: 'Custom Domains & Domain Purchasing API for SaaS',
+        categories: ['Domain', 'Tooling', 'Startup'],
+        url: 'https://domainee.dev/',
+        keywords: ['developer tool', 'custom domains api', 'white label domains', 'saas infrastructure'],
+    },
+    {
         name: 'Dotnet Gig',
         description: 'Find .NET developer jobs',
         categories: ['Job'],
         url: 'https://dotnetgig.com/',
         keywords: ['dotnet', 'remote', 'jobs'],
-    },
-    {
-        name: 'DR Checker',
-        categories: ['Tooling', 'SEO', 'Analytics'],
-        description: 'Build Trust with DR Checker, Track changes in domain Rating',
-        url: 'https://drchecker.net/',
-        keywords: ['seo', 'Analytics'],
     },
     {
         name: 'Dracula theme',
@@ -457,13 +459,15 @@ export const resources: Resource[] = [
     },
     {
         name: 'DreamHost',
-        description: 'What',
+        description:
+            "What's better than WordPress? A Website and Page Builder for WordPress. Choose a theme, add content, images and more with ZERO code!",
         categories: ['Website Builder'],
         url: 'https://www.dreamhost.com/website-builder/',
     },
     {
         name: 'DreamStudio',
-        description: 'DreamStudio is an online creative tool to generate images with AI. Made by the world',
+        description:
+            "DreamStudio is an online creative tool to generate images with AI. Made by the world's leading open source generative AI company, Stability.ai.",
         categories: ['AI', 'Image'],
         url: 'https://dreamstudio.ai',
         keywords: ['ai', 'image'],

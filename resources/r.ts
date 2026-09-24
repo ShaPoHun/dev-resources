@@ -12,7 +12,7 @@ export const resources: Resource[] = [
     {
         name: 'Radix',
         description: 'Components, icons, and colors for building high‑quality, accessible UI. Free and open-source.',
-        categories: ['Icon', 'UI', 'Design', 'Color'],
+        categories: ['Icon', 'UI', 'Design'],
         url: 'https://www.radix-ui.com/',
         keywords: ['icons', 'icon', 'design', 'color', 'ui', 'components'],
     },
@@ -45,6 +45,14 @@ export const resources: Resource[] = [
         url: 'https://rapidapi.com/',
     },
     {
+        name: 'RapidProxy',
+        categories: ['Tooling'],
+        description:
+            '90M+ residential IPs in 200+ countries, starting at $0.65/GB with non-expiring traffic. Power your scraping and automation. Try it free today.',
+        url: 'https://www.rapidproxy.io',
+        keywords: ['proxy', 'residential proxy', 'datacenter proxy', 'mobile proxy', 'web scraping', 'automation'],
+    },
+    {
         name: 'Ratatype',
         description:
             'Learn to type faster. Take touch typing lessons, practice your keyboarding skills online, take a typing test and get typing speed certificate for free.',
@@ -67,19 +75,19 @@ export const resources: Resource[] = [
         url: 'https://www.raycast.com',
     },
     {
+        name: 'React Bits',
+        description:
+            'A large collection of animated React components made to spice up your web creations. Animations, components, backgrounds, and awesome stuff with customization options as props.',
+        categories: ['Programming', 'UI', 'Animation'],
+        url: 'https://reactbits.dev/',
+        keywords: ['react', 'components', 'animated', 'backgrounds', 'customizable', 'free', 'props'],
+    },
+    {
         name: 'React Bootstrap',
         description:
             'React-Bootstrap replaces the Bootstrap JavaScript. Each component has been built from scratch as a true React component, without unneeded dependencies like jQuery.',
         categories: ['Library', 'Programming', 'UI'],
         url: 'https://react-bootstrap.github.io/',
-    },
-    {
-        name: 'React Bits',
-        description:
-            'A large collection of animated React components made to spice up your web creations. Animations, components, backgrounds, and awesome stuff with customization options as props.',
-        categories: ['Library', 'Programming', 'UI', 'Animation'],
-        url: 'https://reactbits.dev/',
-        keywords: ['react', 'components', 'animated', 'backgrounds', 'customizable', 'free', 'props'],
     },
     {
         name: 'React Cheatsheet',
@@ -92,7 +100,7 @@ export const resources: Resource[] = [
         description:
             'Adds React debugging tools to the Chrome Developer Tools. Created from revision f160547f47 on 12/4/2020.',
         categories: ['Browser', 'Extension'],
-        url: 'https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en',
+        url: 'https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi',
     },
     {
         name: 'React Free Admin',
@@ -113,13 +121,6 @@ export const resources: Resource[] = [
             'Find specific React Jobs, including Remote ReactJS Jobs. You are looking for React JS Developers? Submit your job ad',
         categories: ['Job'],
         url: 'https://reactjsjob.com/',
-    },
-    {
-        name: 'ReactNative Jobs',
-        description: 'The #1 job board for React Native developers',
-        categories: ['Job', 'Remote', 'Resume'],
-        url: 'https://reactnative-jobs.com/',
-        keywords: ['react native', 'mobile development', 'remote jobs,', 'tech jobs'],
     },
     {
         name: 'React Native Radio',
@@ -148,7 +149,7 @@ export const resources: Resource[] = [
     },
     {
         name: 'React Template',
-        description: 'Collection of top React templates, React dashboard, and React themes. ',
+        description: 'Collection of top React templates, React dashboard, and React themes.',
         categories: ['Template'],
         url: 'https://react-template.com/',
     },
@@ -159,6 +160,13 @@ export const resources: Resource[] = [
         categories: ['Learn', 'Programming', 'Code Challenge'],
         url: 'https://react-tutorial.app',
         keywords: ['react tutorial', 'interactive react course'],
+    },
+    {
+        name: 'ReactNative Jobs',
+        description: 'The #1 job board for React Native developers',
+        categories: ['Job', 'Remote', 'Resume'],
+        url: 'https://reactnative-jobs.com/',
+        keywords: ['react native', 'mobile development', 'remote jobs,', 'tech jobs'],
     },
     {
         name: 'readme.so',
@@ -192,14 +200,6 @@ export const resources: Resource[] = [
         url: 'https://www.reddit.com/r/forhire/',
     },
     {
-        name: 'ReelProof',
-        description:
-            'ReelProof makes it easy to gather authentic customer testimonials using AI-powered interviews and instantly generates shareable video reels.',
-        categories: ['Video', 'Marketing', 'Productivity'],
-        url: 'https://reelproof.io/',
-        keywords: ['video testimonials', 'ai interviewing', 'video automation', 'social proof'],
-    },
-    {
         name: 'Refactoring UI',
         description:
             'Tired of relying on Bootstrap? Learn how to design awesome UIs by yourself using specific tactics explained from a developer',
@@ -230,6 +230,22 @@ export const resources: Resource[] = [
         keywords: ['ai search', 'enterprise search', 'ai assistant', 'knowledge management'],
     },
     {
+        name: 'Related Repos',
+        description:
+            'Related Repos helps developers to discover open source projects that are related to each other. This can be useful to find alternative or complementary packages when building a full application. Data and results are updated daily.',
+        categories: ['Open Source', 'Programming', 'Extension'],
+        url: 'https://relatedrepos.com/',
+        keywords: ['github', 'open source', 'repository', 'discovery', 'software', 'programming', 'alternatives'],
+    },
+    {
+        name: 'ReleaseRun',
+        description:
+            'Track software releases across the dev ecosystem. Get real-time version monitoring for Node.js, Python, Go, Rust, Kubernetes, PostgreSQL, and more — with free tools for dependency health checks, K8s security scanning, and CI/CD analysis.',
+        categories: ['Tooling', 'Security', 'Programming'],
+        url: 'https://releaserun.com',
+        keywords: ['kubernetes', 'devops', 'dependency health', 'version tracking', 'release monitoring'],
+    },
+    {
         name: 'Remix Icon',
         description:
             'Remix Icon is a set of open source neutral style system symbols elaborately crafted for designers and developers. All of the icons are free to use for both personal and commercial.',
@@ -255,15 +271,7 @@ export const resources: Resource[] = [
         description:
             'Looking for a remote job? Remote OK® has 43,534+ remote jobs as a Developer, Designer, Copywriter, Customer Support Rep, Sales Professional, Project Manager and more! Find a career where you can work remotely from anywhere.',
         categories: ['Job', 'Remote'],
-        url: 'https://remoteok.io/',
-    },
-    {
-        name: 'RemoteSalary',
-        description:
-            '20,000+ jobs all over export const resources: Resource[] = [50,000 salary. Find your ideal high paying remote role. Searches 2,000,000+ job postings across 12,000+ companies daily to find the highest paying remote roles.',
-        categories: ['Job', 'Remote', 'AI'],
-        url: 'https://remotesalary.ai/board?remote=true',
-        keywords: ['remote', 'salary', 'salary search', 'development'],
+        url: 'https://remoteok.com/',
     },
     {
         name: 'Remotive',
@@ -287,7 +295,7 @@ export const resources: Resource[] = [
     },
     {
         name: 'rendezvous with cassidoo',
-        description: 'Rendezvous with cassidoo, probably the best newsletter you',
+        description: "Rendezvous with cassidoo, probably the best newsletter you'll ever read.",
         categories: ['Newsletter', 'Programming'],
         url: 'https://cassidoo.co/newsletter/',
     },
@@ -303,6 +311,23 @@ export const resources: Resource[] = [
         categories: ['Analytics', 'Open Source', 'Marketing'],
         url: 'https://repohistory.com/',
         keywords: ['github', 'repo', 'repository', 'traffic'],
+    },
+    {
+        name: 'ReqKey',
+        description:
+            'ReqKey validates API keys, meters credits, enforces rate limits, and logs every request — from a single SDK call inside your own middleware.',
+        categories: ['API Building'],
+        url: 'https://www.reqkey.com',
+        keywords: [
+            'api keys',
+            'authentication',
+            'rate limits',
+            'usage metering',
+            'api analytics',
+            'developer tools',
+            'sdk',
+            'saas',
+        ],
     },
     {
         name: 'Requestly',
@@ -327,11 +352,11 @@ export const resources: Resource[] = [
         url: 'https://resend.com/',
     },
     {
-        name: 'Reshot',
-        description:
-            'Find tons of curated, non-stocky images for you to use in your next creative project, for free! Free for commercial use. No attribution required.',
-        categories: ['Image'],
-        url: 'https://www.reshot.com/',
+        name: 'Reserp',
+        description: 'Send a Google Search URL and receive visible result blocks as structured JSON.',
+        categories: ['Scraping'],
+        url: 'https://reserp.ai',
+        keywords: ['google', 'search', 'serp', 'api', 'json'],
     },
     {
         name: 'Resmume',
@@ -381,6 +406,14 @@ export const resources: Resource[] = [
         url: 'https://resume.io',
     },
     {
+        name: 'ResumeAI',
+        description:
+            'Free ATS resume checker (3/day anonymous, 10/day free account) plus the open State of ATS 2026 employer dataset.',
+        categories: ['Resume', 'Job'],
+        url: 'https://withresumeai.com/',
+        keywords: ['ats', 'resume checker', 'job search', 'ats score'],
+    },
+    {
         name: 'ResumeBoostAI',
         description: 'Create a professional resume using AI.',
         categories: ['Resume', 'AI'],
@@ -404,7 +437,7 @@ export const resources: Resource[] = [
     {
         name: 'Retool',
         description:
-            'Retool is the fast way to build internal tools. Drag-and-drop our building blocks and connect them to your databases and APIs to build your own tools, instantly. Connects with Postgres, REST APIs, GraphQL, Firebase, Google Sheets, and more.  Built by developers, for developers. Trusted by startups and Fortune 500s. Sign up for free.',
+            'Retool is the fast way to build internal tools. Drag-and-drop our building blocks and connect them to your databases and APIs to build your own tools, instantly. Connects with Postgres, REST APIs, GraphQL, Firebase, Google Sheets, and more. Built by developers, for developers. Trusted by startups and Fortune 500s. Sign up for free.',
         categories: ['API Building', 'Productivity'],
         url: 'https://retool.com/',
     },
@@ -413,20 +446,6 @@ export const resources: Resource[] = [
         description: 'Replay the steps of your changes at ease. A diff based typing simulator.',
         categories: ['Typing'],
         url: 'https://github.com/antfu/retypewriter',
-    },
-    {
-        name: 'Revyou',
-        description: 'Turn your reviews into a lead magnet',
-        categories: ['AI', 'Marketing'],
-        url: 'https://www.revyou.me/',
-        keywords: ['ai', 'marketing', 'lead magnet', 'reviews'],
-    },
-    {
-        name: 'Rick Blyth',
-        description:
-            'Rick Blyth is a Micro SaaS Founder who shares tips on getting started with Micro SaaS, Passive Income, Quit Your Job and Chrome Extensions. Home of the free 12 chapter Micro SaaS Handbook.',
-        categories: ['Personal Website'],
-        url: 'https://rickblyth.com/',
     },
     {
         name: 'Rider',
@@ -454,6 +473,14 @@ export const resources: Resource[] = [
         keywords: ['ai answering service', 'ai assistant', 'voice', 'audio', 'phone'],
     },
     {
+        name: 'RouterBase',
+        description:
+            'RouterBase is an AI API gateway for developers and small teams. Through a single OpenAI-compatible endpoint, it provides access to 200+ AI models from providers like OpenAI, Anthropic, Google, and Meta, with smart routing, automatic failover, and unified usage and cost tracking.',
+        categories: ['AI', 'API Building', 'Tooling'],
+        url: 'https://routerbase.com',
+        keywords: ['ai', 'api', 'llm', 'openai-compatible', 'ai gateway', 'model routing', 'developer tools'],
+    },
+    {
         name: 'RubyMine',
         description:
             'The Ruby and Rails IDE with first-class support for Ruby and Rails, JavaScript and CoffeeScript, ERB and HAML, CSS, Sass and Less, and more.',
@@ -475,12 +502,5 @@ export const resources: Resource[] = [
         categories: ['Design', 'Image', 'Productivity'],
         url: 'https://www.getrupert.com/',
         keywords: ['ai', 'image generation', 'photography', 'advertising'],
-    },
-    {
-        name: 'Rysa AI',
-        description: 'AI GTM Automation Agent',
-        categories: ['AI', 'Marketing', 'Productivity'],
-        url: 'https://www.rysa.ai',
-        keywords: ['assistant', 'automation', 'nocode', 'ai agent,'],
     },
 ]
